@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
-use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
@@ -12,6 +11,6 @@ class CategoryController extends Controller
         $category = Category::where('code', $code)->firstOrFail();
         $receipts = $category->receipts()->get();
 
-        return view('category', ['category' => $category]);
+        return view('category', ['category' => $category, 'receipts' => $receipts]);
     }
 }

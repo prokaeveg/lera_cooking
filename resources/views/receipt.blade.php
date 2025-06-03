@@ -1,20 +1,11 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ $recipe->title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@extends('layouts.app')
 
+@section('title', $receipt->name)
+
+@push('styles')
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fffaf5;
-            margin: 0;
-            padding: 1rem;
-        }
-
         .container {
-            max-width: 600px;
+            max-width: 90%;
             margin: 0 auto;
         }
 
@@ -71,32 +62,49 @@
             padding: 1rem;
             background-color: #fffdfb;
         }
+
+        .notes {
+            margin-bottom: 20px;
+        }
     </style>
-</head>
-<body>
+@endpush
+
+@section('content')
 <div class="container">
+    <h1 class="title">{{ $receipt->name }}</h1>
 
-    <div class="title">{{ $recipe->title }}</div>
-
-    <img src="{{ asset('storage/' . $recipe->image_path) }}" alt="{{ $recipe->title }}" class="recipe-image">
+    <img src="{{ url(sprintf("%s/%s", 'images/receipts', $receipt->image)) }}" alt="{{ $receipt->name }}" class="recipe-image">
 
     <div class="ingredients">
         <h3>Ингредиенты:</h3>
-        @foreach ($recipe->ingredients as $ingredient)
+        @foreach ($receipt->ingredients as $ingredient)
             <div class="ingredient-item">
-                {{ $ingredient->name }} — {{ $ingredient->pivot->amount }}
+                @if ($ingredient->pivot->amount)
+                    {{ $ingredient->name }} - {{ $ingredient->pivot->amount }}
+                @else
+                    {{ $ingredient->name }}
+                @endif
             </div>
         @endforeach
     </div>
 
+    <div class="notes">
+        @livewire('notes', ['receiptCode' => $receipt->code])
+    </div>
+
+    @if ($receipt->video)
     <div class="video">
-        <iframe src="{{ $recipe->video_url }}" allowfullscreen></iframe>
+        <iframe width="720" height="405"
+            src="https://rutube.ru/play/embed/{{ $receipt->video }}" frameBorder="0"
+            allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+        </iframe>
     </div>
+    @endif
 
-    <div class="steps">
-        @include($recipe->steps_view)
-    </div>
-
+    @if($receipt->steps_view)
+        <div class="steps">
+            @include($receipt->steps_view)
+        </div>
+    @endif
 </div>
-</body>
-</html>
+@endsection

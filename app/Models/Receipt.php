@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 class Receipt extends Model
 {
     protected $table = 'receipts';
+
     public function ingredients(): BelongsToMany
     {
         return $this->belongsToMany(
@@ -17,6 +18,16 @@ class Receipt extends Model
             'ingredient_code',
             'code',
             'code',
-        )->withPivot('amount');
+        )->withPivot('amount')->orderBy('sort', 'asc');
+    }
+
+    public function ingredientsForList(): string
+    {
+        $ingredients = $this->ingredients();
+
+        return implode(
+            ', ',
+            $ingredients->get()->map(fn (Ingredient $ingredient) => mb_strtolower($ingredient->name))->all()
+        ) ?: 'Тут пока пусто';
     }
 }

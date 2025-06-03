@@ -1,54 +1,13 @@
 @php use App\Models\Category; @endphp
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <link rel="icon" type="image/x-icon" href="{{ url('favicon.ico') }}" />
-    <title>Лера готовит!</title>
+@extends('layouts.app')
+
+@push('styles')
     <style>
-        @font-face {
-            font-family: GraublauWeb;
-            src: url({{ url('fonts/NewLetterGothicC.otf') }}) format("opentype");
-        }
-        @font-face {
-            font-family: GraublauWeb;
-            font-weight: bold;
-            src: url({{ url('fonts/NewLetterGothicC-Bold.otf') }}) format("opentype");
-        }
-        body {
-            font-family: 'GraublauWeb', serif;
-        }
-        html, body {
-            margin: 0;
-            padding: 0;
-        }
-        .background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url({{ url('images/2.webp') }});
-            background-size: auto;
-            background-repeat: repeat;
-            filter: opacity(50%);
-            z-index: -1;
-        }
-        body {
-            overflow: auto;
-        }
-        h1 {
-            font-size: 4vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #662e06;
-            margin-bottom: 5vh;
-        }
         .category-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            gap: 50px 4px;
+            gap: 30px 4px;
             padding: 16px;
             box-sizing: border-box;
         }
@@ -78,15 +37,15 @@
             font-weight: bold;
         }
     </style>
-</head>
-<body>
-    <div class="background"></div>
+@endpush
+
+
+@section('content')
     <h1>Рецепты от жены</h1>
     @php
         $categories = Category::query()
             ->orderBy('sort')
             ->get();
-
     @endphp
 
     <div class="category-container">
@@ -98,4 +57,4 @@
             ])
         @endforeach
     </div>
-</body>
+@endsection
