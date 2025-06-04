@@ -1,10 +1,6 @@
 <div>
     @push('styles')
         <style>
-            .note-header {
-                color: #4b2200;
-            }
-
             .note-input-wrapper {
                 margin-bottom: 1rem;
                 display: flex;
@@ -23,7 +19,7 @@
                 padding: 0.5rem 1rem;
                 margin-left: 0.5rem;
                 border: none;
-                background-color: #4b2200;
+                background-color: #662e06;
                 color: white;
                 border-radius: 8px;
                 font-size: 1rem;
@@ -44,7 +40,7 @@
                 background: #fef2e6;
                 padding: 0.5rem 1rem;
                 border-radius: 10px;
-                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+                box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
                 position: relative;
             }
 

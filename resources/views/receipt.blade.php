@@ -11,7 +11,6 @@
 
         .title {
             font-size: 2rem;
-            color: #4b2200;
             margin-bottom: 1rem;
             text-align: center;
         }
@@ -19,7 +18,7 @@
         .recipe-image {
             width: 100%;
             border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             margin-bottom: 1.5rem;
         }
 
@@ -27,13 +26,12 @@
             background-color: #fef2e6;
             padding: 1rem;
             border-radius: 10px;
-            box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
             margin-bottom: 2rem;
         }
 
         .ingredients h3 {
             margin-top: 0;
-            color: #4b2200;
             font-size: 1.2rem;
         }
 
@@ -60,51 +58,100 @@
 
         .steps {
             padding: 1rem;
-            background-color: #fffdfb;
+            background-color: #fef2e6;
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 30px;
         }
 
         .notes {
             margin-bottom: 20px;
         }
+
+        .step {
+            margin-bottom: 2rem;
+        }
+
+        .step img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+        }
+
+        .step-text {
+            line-height: 1.6;
+        }
+
+        .step-number {
+            color: #4b2200;
+            font-weight: bold;
+        }
+
+        .step-divider {
+            border: none;
+            height: 2px;
+            background: #662e06;
+            opacity: 30%;
+            margin: 2rem 0;
+        }
     </style>
 @endpush
 
 @section('content')
-<div class="container">
-    <h1 class="title">{{ $receipt->name }}</h1>
+    <div class="container">
+        <h1 class="title">{{ $receipt->name }}</h1>
 
-    <img src="{{ url(sprintf("%s/%s", 'images/receipts', $receipt->image)) }}" alt="{{ $receipt->name }}" class="recipe-image">
+        <img src="{{ url(sprintf("%s/%s", 'images/receipts', $receipt->image)) }}" alt="{{ $receipt->name }}"
+             class="recipe-image">
 
-    <div class="ingredients">
-        <h3>Ингредиенты:</h3>
-        @foreach ($receipt->ingredients as $ingredient)
-            <div class="ingredient-item">
-                @if ($ingredient->pivot->amount)
-                    {{ $ingredient->name }} - {{ $ingredient->pivot->amount }}
-                @else
-                    {{ $ingredient->name }}
-                @endif
-            </div>
-        @endforeach
-    </div>
-
-    <div class="notes">
-        @livewire('notes', ['receiptCode' => $receipt->code])
-    </div>
-
-    @if ($receipt->video)
-    <div class="video">
-        <iframe width="720" height="405"
-            src="https://rutube.ru/play/embed/{{ $receipt->video }}" frameBorder="0"
-            allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
-        </iframe>
-    </div>
-    @endif
-
-    @if($receipt->steps_view)
-        <div class="steps">
-            @include($receipt->steps_view)
+        <div class="ingredients">
+            <h3>Ингредиенты:</h3>
+            @foreach ($receipt->ingredients as $ingredient)
+                <div class="ingredient-item">
+                    @if ($ingredient->pivot->amount)
+                        {{ $ingredient->name }} - {{ $ingredient->pivot->amount }}
+                    @else
+                        {{ $ingredient->name }}
+                    @endif
+                </div>
+            @endforeach
         </div>
-    @endif
-</div>
+
+        <div class="notes">
+            @livewire('notes', ['receiptCode' => $receipt->code])
+        </div>
+
+        @if ($receipt->video)
+            <h3>Видео рецепт:</h3>
+            <div class="video">
+                <iframe width="720" height="405"
+                        src="https://rutube.ru/play/embed/{{ $receipt->video }}" frameBorder="0"
+                        allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+                </iframe>
+            </div>
+        @endif
+
+        @if (!empty($receipt->steps))
+            <h3>Пошаговый рецепт:</h3>
+            <div class="steps">
+                <div class="cooking-steps">
+                    @foreach (json_decode($receipt->steps, true, 512, JSON_THROW_ON_ERROR) as $index => $stepText)
+                        <div class="step">
+                            <img src="{{ asset("images/steps/{$receipt->code}/step" . ($index + 1) . ".jpg") }}"
+                                 alt="Шаг {{ $index + 1 }}">
+                            <div class="step-text">
+                                <span class="step-number">Шаг {{ $index + 1 }}.</span> {{ $stepText }}
+                            </div>
+                        </div>
+                        @if (!$loop->last)
+                            <hr class="step-divider">
+                        @endif
+                    @endforeach
+                </div>
+            </div>
+        @endif
+    </div>
 @endsection

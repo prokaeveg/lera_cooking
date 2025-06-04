@@ -20,8 +20,13 @@
             font-weight: bold;
             src: url({{ url('fonts/NewLetterGothicC-Bold.otf') }}) format("opentype");
         }
+        .title, h1, h2, h3, h4 {
+            color: #4b2200;
+        }
         body {
             font-family: 'GraublauWeb', serif;
+            color: #662e06;
+            font-size: 1rem;
         }
         html, body {
             margin: 0;
@@ -47,7 +52,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            color: #662e06;
             margin-bottom: 5vh;
             padding-top: 2vh; !important;
         }
