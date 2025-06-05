@@ -1,4 +1,4 @@
-@php use App\Models\Category; @endphp
+@php use App\Models\Category;use App\Models\Receipt; @endphp
 @extends('layouts.app')
 
 @push('styles')
@@ -11,10 +11,12 @@
             padding: 16px;
             box-sizing: border-box;
         }
+
         .category-row {
             text-decoration: none;
             width: 30%;
         }
+
         .category-item {
             display: flex;
             flex-direction: column;
@@ -22,6 +24,7 @@
             margin: 8px 0;
             width: 100%;
         }
+
         .category-img {
             width: 70%;
             max-width: 70%;
@@ -29,6 +32,7 @@
             border-radius: 12px;
             object-fit: cover;
         }
+
         .category-title {
             margin-top: 15px;
             font-size: 2.2vh;
@@ -46,6 +50,7 @@
         $categories = Category::query()
             ->orderBy('sort')
             ->get();
+        $randomReceipt =  Receipt::inRandomOrder()->limit(1)->get()->first();
     @endphp
 
     <div class="category-container">
@@ -56,5 +61,10 @@
                 'url' => route('category', ['code' => $category->code])
             ])
         @endforeach
+        @include('components.categories', [
+            'title' => 'Случайный рецепт',
+            'image' =>  url('images/categories/random.png'),
+            'url' => route('receipt', ['code' => $randomReceipt->code])
+        ])
     </div>
 @endsection
