@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('code')->unique();
-            $table->string('image');
             $table->string('video')->nullable();
             $table->string('steps_view')->nullable();
             $table->string('category_code');

@@ -67,7 +67,7 @@
     @foreach ($receipts as $receipt)
         <a class="receipt-link" href="{{ route('receipt', ['code' => $receipt->code]) }}">
             <div class="receipt-card">
-                <img class="receipt-img" src="{{ url(sprintf("%s/%s", 'images/receipts', $receipt->image)) }}" alt="{{ $receipt->name }}">
+                <img class="receipt-img" src="{{ url(sprintf("%s/%s", 'images/receipts', sprintf("%s.%s", $receipt->code, 'jpg'))) }}" alt="{{ $receipt->name }}">
                 <div class="receipt-title">
                     <span>{{ $receipt->name }}</span>
                 </div>
