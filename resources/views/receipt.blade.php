@@ -104,7 +104,7 @@
     <div class="container">
         <h1 class="title">{{ $receipt->name }}</h1>
 
-        <img src="{{ url(sprintf("%s/%s", 'images/receipts', $receipt->image)) }}" alt="{{ $receipt->name }}"
+        <img src="{{ url(sprintf("%s/%s", 'images/receipts', $receipt->code . '.jpg')) }}" alt="{{ $receipt->name }}"
              class="recipe-image">
 
         <div class="ingredients">
@@ -120,9 +120,11 @@
             @endforeach
         </div>
 
-        <div class="notes">
-            @livewire('notes', ['receiptCode' => $receipt->code])
-        </div>
+        @if(!$receipt->notes->isEmpty())
+            <div class="notes">
+                @include('components.notes', ['notes' => $receipt->notes])
+            </div>
+        @endif
 
         @if ($receipt->video)
             <h3>Видео рецепт:</h3>

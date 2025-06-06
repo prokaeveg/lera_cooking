@@ -33,7 +33,6 @@ foreach ($receipts as $receipt) {
     $content = file_get_contents($receipt . '/index.html');
 
     $content = replace_defaults($content);
-    $content = preg_replace('#/receipts#', "/receipts/$receiptCode.jpg", $content);
 
     file_put_contents($fileName, $content);
 }

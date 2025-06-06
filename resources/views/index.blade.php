@@ -50,7 +50,7 @@
         $categories = Category::query()
             ->orderBy('sort')
             ->get();
-        $randomReceipt =  Receipt::inRandomOrder()->limit(1)->get()->first();
+//        $randomReceipt =  Receipt::inRandomOrder()->limit(1)->get()->first();
     @endphp
 
     <div class="category-container">
@@ -61,10 +61,10 @@
                 'url' => route('category', ['code' => $category->code])
             ])
         @endforeach
-        @include('components.categories', [
-            'title' => 'Случайный рецепт',
-            'image' =>  url('images/categories/random.png'),
-            'url' => route('receipt', ['code' => $randomReceipt->code])
-        ])
+{{--        @include('components.categories', [--}}
+{{--            'title' => 'Случайный рецепт',--}}
+{{--            'image' =>  url('images/categories/random.png'),--}}
+{{--            'url' => route('receipt', ['code' => $randomReceipt->code])--}}
+{{--        ])--}}
     </div>
 @endsection

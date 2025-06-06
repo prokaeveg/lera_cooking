@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Receipt extends Model
 {
@@ -19,6 +20,15 @@ class Receipt extends Model
             'code',
             'code',
         )->withPivot('amount')->orderBy('sort', 'asc');
+    }
+
+    public function notes(): HasMany
+    {
+        return $this->hasMany(
+            Note::class,
+            'receipt_code',
+            'code'
+        );
     }
 
     public function ingredientsForList(): string

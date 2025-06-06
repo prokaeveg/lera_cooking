@@ -9,7 +9,6 @@
     <meta name="theme-color" content="hsl(25, 89%, 21%)">
     <link rel="apple-touch-icon" href="{{ url('images/iphone-icon-big.png') }}"/>
 
-    @livewireStyles
     <style>
         @font-face {
             font-family: GraublauWeb;
@@ -58,7 +57,6 @@
     </style>
 
     @stack('styles')
-    @livewireScripts
 </head>
 <body>
 <div class="background"></div>
