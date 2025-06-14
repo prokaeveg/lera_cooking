@@ -142,8 +142,10 @@
                 <div class="cooking-steps">
                     @foreach (json_decode($receipt->steps, true, 512, JSON_THROW_ON_ERROR) as $index => $stepText)
                         <div class="step">
-                            <img src="{{ asset("images/steps/{$receipt->code}/step" . ($index + 1) . ".jpg") }}"
-                                 alt="Шаг {{ $index + 1 }}">
+                            @if(file_exists(public_path("images/steps/{$receipt->code}/step" . ($index + 1) . ".jpg")))
+                                <img src="{{ asset("images/steps/{$receipt->code}/step" . ($index + 1) . ".jpg") }}"
+                                     alt="Шаг {{ $index + 1 }}">
+                            @endif
                             <div class="step-text">
                                 <span class="step-number">Шаг {{ $index + 1 }}.</span> {{ $stepText }}
                             </div>
