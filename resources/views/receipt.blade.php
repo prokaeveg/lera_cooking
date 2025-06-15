@@ -97,6 +97,13 @@
             opacity: 30%;
             margin: 2rem 0;
         }
+        .receipt-container {
+            margin-bottom: 30px;
+        }
+        .receipt-link {
+            text-decoration: none;
+            color: #662e06;
+        }
     </style>
 @endpush
 
@@ -107,18 +114,20 @@
         <img src="{{ url(sprintf("%s/%s", 'images/receipts', $receipt->code . '.jpg')) }}" alt="{{ $receipt->name }}"
              class="recipe-image">
 
-        <div class="ingredients">
-            <h3>Ингредиенты:</h3>
-            @foreach ($receipt->ingredients as $ingredient)
-                <div class="ingredient-item">
-                    @if ($ingredient->pivot->amount)
-                        {{ $ingredient->name }} - {{ $ingredient->pivot->amount }}
-                    @else
-                        {{ $ingredient->name }}
-                    @endif
-                </div>
-            @endforeach
-        </div>
+        @if(!$receipt->ingredients->isEmpty())
+            <div class="ingredients">
+                <h3>Ингредиенты:</h3>
+                @foreach ($receipt->ingredients as $ingredient)
+                    <div class="ingredient-item">
+                        @if ($ingredient->pivot->amount)
+                            {{ $ingredient->name }} - {{ $ingredient->pivot->amount }}
+                        @else
+                            {{ $ingredient->name }}
+                        @endif
+                    </div>
+                @endforeach
+            </div>
+        @endif
 
         @if(!$receipt->notes->isEmpty())
             <div class="notes">
@@ -155,6 +164,12 @@
                         @endif
                     @endforeach
                 </div>
+            </div>
+        @endif
+        @if($receipt->source)
+            <h3>Оригинальный рецепт:</h3>
+            <div class="receipt-container">
+                <a class="receipt-link" href="{{ $receipt->source }}" target="_blank">{{ $receipt->source }}</a>
             </div>
         @endif
     </div>

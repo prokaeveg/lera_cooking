@@ -38,6 +38,6 @@ class Receipt extends Model
         return implode(
             ', ',
             $ingredients->get()->map(fn (Ingredient $ingredient) => mb_strtolower($ingredient->name))->all()
-        ) ?: 'Тут пока пусто';
+        );
     }
 }

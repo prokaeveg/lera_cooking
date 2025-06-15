@@ -1,0 +1,830 @@
+hot-egg-sandwich;bread;;2
+hot-egg-sandwich;cheese;;3
+hot-egg-sandwich;ham;;4
+hot-egg-sandwich;butter;;5
+hot-egg-sandwich;salt;;6
+sandwich-egg-ham;bread;;2
+sandwich-egg-ham;milk;;3
+sandwich-egg-ham;egg;;1
+sandwich-egg-ham;ham;;4
+sandwich-egg-ham;butter;;5
+sandwich-egg-ham;salt;;6
+hot-egg-sandwich;egg;2 шт.;1
+bread-triangles;lavash;3 шт.;1
+bread-triangles;sausage;;2
+bread-triangles;cheese;;3
+bread-triangles;smetana;2 ст.л.;4
+bread-triangles;egg;2 шт.;5
+bread-triangles;oil;;6
+bread-triangles;salt;;7
+tortilla;tortilla;;1
+tortilla;tomato;;2
+tortilla;sausage;;3
+tortilla;cheese;;4
+tortilla;ketchup;;5
+pancakes;sugar;3 ст.л.;3
+pancakes;egg;1 шт;2
+pancakes;salt;0.5 ст.л.;4
+pancakes;soda;0.5 ч.л.;6
+pancakes;kefir;250 мл.;1
+pancakes;flour;230 гр.;5
+rice-porridge;water;500 мл.;2
+rice-porridge;milk;750 мл.;3
+rice-porridge;salt;0.5 ч.л.;4
+rice-porridge;sugar;1.5 ст.л.;5
+rice-porridge;butter;;6
+draniki;potato;500 г.;1
+draniki;onion;;2
+draniki;egg;1 шт.;3
+draniki;salt;;4
+draniki;oil;;5
+sandwich-tuna;egg;3 шт.;1
+sandwich-tuna;cucumber;;2
+sandwich-tuna;smetana;;3
+sandwich-tuna;tuna;;4
+fritata;egg;4 шт.;1
+fritata;tomato;;2
+fritata;mozzarella;100 г.;3
+fritata;cheese;;4
+lavash-egg-sausage;tortilla;;1
+lavash-egg-sausage;sausage;;2
+lavash-egg-sausage;egg;2 шт.;3
+lavash-egg-sausage;cheese;;4
+bliny;milk;1 стакан;1
+bliny;flour;1 стакан;2
+bliny;hot-water;1 стакан;3
+bliny;egg;2 шт.;4
+bliny;sugar;2 ст.л.;5
+bliny;oil;2 ст.л.;6
+bliny;salt;щепотка;7
+toast-crab;egg;;1
+toast-crab;crab-sticks;;2
+toast-crab;tomato;;3
+toast-crab;cottage-cheese;;4
+toast-crab;salt;;5
+meat-casserole;forcemeat;;1
+meat-casserole;potato;3 шт.;2
+meat-casserole;tomato;1 шт.;3
+meat-casserole;onion;;4
+meat-casserole;cheese;;5
+meat-casserole;egg;1 шт.;6
+meat-casserole;smetana-or-mayonnaise;100 г.;7
+meat-casserole;salt;;8
+meat-casserole;oil;;9
+chicken-casserole;potato;5 шт.;1
+chicken-casserole;chicken;;2
+chicken-casserole;egg;2 шт.;3
+chicken-casserole;smetana;200 г.;4
+chicken-casserole;tomato;;5
+chicken-casserole;cheese;;6
+julienne-casserole;chicken;400 г.;1
+julienne-casserole;potato;800 г.;2
+julienne-casserole;mushroom;300 г.;3
+julienne-casserole;cream-30;300 мл.;4
+julienne-casserole;onion;;5
+julienne-casserole;cheese;;6
+julienne-casserole;butter;;7
+julienne-casserole;oil;;8
+julienne-casserole;salt;;9
+chicken-roll;chicken;;1
+chicken-roll;cottage-cheese;;2
+chicken-roll;smetana;;3
+chicken-roll;garlic;;4
+chicken-roll;cheese;;5
+chicken-roll;salt;;6
+balls-french;chicken-forcemeat;600 г.;1
+balls-french;onion;;2
+balls-french;butter;40 г.;3
+balls-french;pickle;1 шт.;4
+balls-french;mushroom;3 шт.;5
+balls-french;tomato;1 шт.;6
+balls-french;mayonnaise;3-4 ст.л.;7
+balls-french;mozzarella;100 г.;8
+balls-french;salt;;9
+balls-french;garlic;;10
+julienne;chicken;2 шт.;1
+julienne;mushroom;400 г.;2
+julienne;onion;;3
+julienne;cheese;100 г.;4
+julienne;butter;50 г.;5
+julienne;flour;2 ст.л.;6
+julienne;milk;400 г.;7
+julienne;salt;;8
+nests;forcemeat;1 кг.;1
+nests;onion;;2
+nests;bread;2 куска;3
+nests;milk;100 мл.;4
+nests;egg;2 шт.;5
+nests;smetana;200 г.;6
+nests;cheese;200 г.;7
+nests;salt;;8
+backed-potatoes-sausage;potato;5 шт.;1
+backed-potatoes-sausage;sausages;4 шт.;2
+backed-potatoes-sausage;tomato;2 шт.;3
+backed-potatoes-sausage;cheese;;4
+backed-potatoes-sausage;mayonnaise;100 г.;5
+backed-potatoes-sausage;garlic;;6
+backed-potatoes-sausage;oil;;7
+backed-potatoes-sausage;salt;;8
+lasagna;lasagna;6 шт.;1
+lasagna;forcemeat;750 г.;2
+lasagna;onion;;3
+lasagna;bouillon;200 мл.;4
+lasagna;cheese;;5
+lasagna;tomato-paste;2 ст.л.;6
+lasagna;oil;1 ст.л.;7
+lasagna;milk;500 мл.;8
+lasagna;butter;80 г.;9
+lasagna;flour;60 г.;10
+lasagna;ground-nutmeg;0.5 ч.л.;11
+lasagna;salt;;12
+potato-with-chicken-and-tomatoes;potato;270 г.;1
+potato-with-chicken-and-tomatoes;chicken;350 г.;2
+potato-with-chicken-and-tomatoes;tomato;;3
+potato-with-chicken-and-tomatoes;onion;;4
+potato-with-chicken-and-tomatoes;garlic;;5
+potato-with-chicken-and-tomatoes;cheese;;6
+potato-with-chicken-and-tomatoes;salt;;7
+chicken-with-mushroom;chicken;700 г.;1
+chicken-with-mushroom;mushroom;400 г.;2
+chicken-with-mushroom;cheese;;3
+chicken-with-mushroom;smetana;3-4 ст.л.;4
+chicken-with-mushroom;flour;2 ст.л.;5
+chicken-with-mushroom;butter;;6
+chicken-with-mushroom;oil;;7
+chicken-with-mushroom;garlic;;8
+chicken-with-mushroom;salt;;9
+potato-nests;potato;800 г.;1
+potato-nests;forcemeat;400 г.;2
+potato-nests;cheese;;3
+potato-nests;tomato;;4
+potato-nests;onion;;5
+potato-nests;garlic;;6
+potato-nests;butter;30 г;7
+potato-nests;salt;;8
+chicken-bedro;chicken-bedro;2 шт.;1
+chicken-bedro;potato;3 шт.;2
+chicken-bedro;cheese;;3
+chicken-bedro;onion;;4
+chicken-bedro;cream-20;100 мл.;5
+chicken-bedro;oil;;6
+chicken-bedro;salt;;7
+chicken-soup;chicken;2 шт.;1
+chicken-soup;potato;700 г.;2
+chicken-soup;noodles;80-90 г.;3
+chicken-soup;onion;;4
+chicken-soup;carrot;;5
+chicken-soup;butter;50 г.;6
+chicken-soup;oil;;7
+chicken-soup;cream-20;150 мл.;8
+chicken-soup;salt;;9
+chi;pork;500 г.;1
+chi;onion;;2
+chi;carrot;;3
+chi;tomato;2 шт.;4
+chi;cabbage;400 г.;5
+chi;potato;500 г.;6
+chi;salt;;8
+chi;tomato-paste;;7
+solyanka;potato;3 шт.;1
+solyanka;water;1.5 л.;2
+solyanka;onion;;3
+solyanka;carrot;;4
+solyanka;pickle;2 шт.;5
+solyanka;sausage;300 г.;6
+solyanka;salt;;8
+solyanka;oil;;7
+solyanka;smetana;150-200 г.;8
+solyanka;tomato-paste;4 ст.л.;9
+borsch;pork;700 г.;1
+borsch;potato;4-5 шт.;2
+borsch;onion;;3
+borsch;carrot;;4
+borsch;beet;2 шт.;5
+borsch;lemon-juice;2 ст.л.;6
+borsch;sugar;0.5 ч.л.;8
+borsch;tomato-paste;1 ст.л.;7
+borsch;cabbage;;8
+borsch;garlic;;9
+borsch;salt;;10
+red-fish-ear;red-fish;300 г.;1
+red-fish-ear;potato;5-7 шт.;2
+red-fish-ear;onion;;3
+red-fish-ear;carrot;;4
+red-fish-ear;tomato-cherry;150 г.;5
+red-fish-ear;cream-20;150 мл.;6
+red-fish-ear;cottage-cheese;1 ст.л.;8
+red-fish-ear;salt;;8
+red-fish-ear;water;2-2.5 л.;7
+cheese-soup;cream-cheese;270 г.;1
+cheese-soup;onion;;2
+cheese-soup;carrot;;3
+cheese-soup;potato;300 г.;4
+cheese-soup;butter;50 г.;5
+cheese-soup;water;2 л.;6
+cheese-soup;salt;;8
+potato-meat-roll;potato;6-7 шт.;1
+potato-meat-roll;forcemeat;400 г.;2
+potato-meat-roll;tomato;;3
+potato-meat-roll;cheese;;4
+potato-meat-roll;onion;;5
+potato-meat-roll;cream-cheese;100 г.;6
+potato-meat-roll;salt;;8
+rice-porridge;rice-circle;200 г.;1
+pie-with-rice;flour;100 г.;1
+pie-with-rice;butter;50 г.;2
+pie-with-rice;kefir;100 мл.;3
+pie-with-rice;egg;3 шт.;4
+pie-with-rice;rice;30 г.;5
+pie-with-rice;baking-powder;1 ч.л.;6
+pie-with-rice;salt;;8
+pie-cheeseburger;oil;;5
+pie-cheeseburger;onion;;9
+pie-cheeseburger;cheese;;11
+pie-cheeseburger;yeasts;5 г.;1
+pie-cheeseburger;pickle;2-3 шт.;10
+pie-cheeseburger;forcemeat;600 г.;8
+pie-cheeseburger;sugar;2 ч.л.;2
+pie-cheeseburger;yolk;1 шт.;13
+pie-cheeseburger;water-or-milk;200мл. (38-40 °C);0
+pie-cheeseburger;milk;1 ст.л.;14
+pie-cheeseburger;ketchup;150 г.;12
+pie-cheeseburger;flour;450-460 г.;6
+pie-cheeseburger;egg;1 шт.;4
+pie-cheeseburger;sesame;1 горсть;15
+pie-cheeseburger;salt;1 ч.л.;16
+pie-ham-cheese;dough;;1
+pie-ham-cheese;ham;;2
+pie-ham-cheese;cheese;;3
+pie-ham-cheese;mayonnaise;;4
+pie-ham-cheese;ketchup;;5
+pie-ham-cheese;yolk;;6
+pie-ham-cheese;sesame;;7
+pie-ham-cheese;pumpkin-seed;;8
+chebureks;flour;400 г.;1
+chebureks;oil;40 г.;2
+chebureks;hot-water;200 мл.;3
+chebureks;vodka;20 г.;4
+chebureks;forcemeat;300 г.;5
+chebureks;onion;;6
+chebureks;water;50 мл.;7
+chebureks;garlic;;8
+chebureks;salt;;9
+bun-with-staff;burger-bun;;1
+bun-with-staff;melt-cheese;;2
+bun-with-staff;sausage;;3
+bun-with-staff;pickle;;4
+bun-with-staff;ketchup;;5
+bun-with-staff;tomato-cherry;;6
+bun-with-staff;cheese;;7
+kurniki;flour;375 г.;2
+kurniki;butter;135 г.;3
+kurniki;soda;0.5 ч.л.;4
+kurniki;salt;0.5 ч.л.;5
+kurniki;chicken;300 г.;6
+kurniki;potato;300 г.;7
+kurniki;onion;;8
+kurniki;water;100 мл.;9
+kurniki;egg;1 шт.;10
+ham-cheese-puffs;dough;;1
+ham-cheese-puffs;ham;250 г.;2
+ham-cheese-puffs;cheese;100 г.;3
+ham-cheese-puffs;egg;1 шт.;4
+ham-cheese-puffs;mayonnaise;;5
+ham-cheese-puffs;yolk;;6
+ham-cheese-puffs;cream-20;;7
+ham-cheese-puffs;sesame;;8
+beef-stroganoff;beef;500 г. (вырезка);1
+beef-stroganoff;onion;;2
+beef-stroganoff;flour;30 г.;3
+beef-stroganoff;smetana;200 г.;4
+beef-stroganoff;tomato-paste;1 ст.л.;5
+beef-stroganoff;water;300 мл.;6
+beef-stroganoff;salt;;7
+meat-gravy;pork;800 г.;1
+meat-gravy;tomato-paste;2-3 ст.л.;2
+meat-gravy;flour;1 ст.л.;6
+meat-gravy;water;1.2 л.;7
+meat-gravy;butter;40 г.;8
+meat-gravy;oil;;9
+meat-gravy;salt;;10
+meat-gravy;garlic;;5
+meat-gravy;onion;;4
+meatballs-with-rice;forcemeat;500 г.;1
+meatballs-with-rice;egg;1 шт.;2
+meatballs-with-rice;rice;100 г.;3
+meatballs-with-rice;onion;;4
+meatballs-with-rice;carrot;;5
+meatballs-with-rice;tomato-paste;1 ст.л.;6
+meatballs-with-rice;smetana;1 ст.л.;7
+meatballs-with-rice;flour;1 ст.л.;8
+meatballs-with-rice;oil;;9
+meatballs-with-rice;hot-water;500 мл.;10
+meatballs-with-rice;salt;;11
+meatballs-with-rice;sugar;1 ч.л.;12
+buckwheat-with-sausage;sausages;;3
+buckwheat-with-sausage;onion;;4
+buckwheat-with-sausage;carrot;;5
+buckwheat-with-sausage;garlic;;6
+buckwheat-with-sausage;salt;;7
+buckwheat-with-sausage;water;4 стакана;2
+buckwheat-with-sausage;buckwheat;2 стакана;1
+buckwheat;buckwheat;0.5 стакана;1
+buckwheat;hot-water;1 стакан;2
+buckwheat;onion;;3
+buckwheat;carrot;;4
+buckwheat;oil;;5
+buckwheat;butter;;6
+buckwheat;salt;;7
+buckwheat-with-pork;pork;400 г.;1
+buckwheat-with-pork;buckwheat;1 стакан 300 мл.;2
+buckwheat-with-pork;water;2 стакана по 300 мл.;3
+buckwheat-with-pork;onion;;4
+buckwheat-with-pork;carrot;;5
+buckwheat-with-pork;garlic;;6
+buckwheat-with-pork;oil;;7
+buckwheat-with-pork;butter;;8
+buckwheat-with-pork;salt;;9
+buckwheat-with-forcemeat;buckwheat;350 г.;1
+buckwheat-with-forcemeat;water;700 мл.;2
+buckwheat-with-forcemeat;forcemeat;500 г.;3
+buckwheat-with-forcemeat;butter;;4
+buckwheat-with-forcemeat;onion;;5
+buckwheat-with-forcemeat;carrot;;6
+buckwheat-with-forcemeat;tomato-paste;2 ст.л.;7
+buckwheat-with-forcemeat;garlic;;8
+buckwheat-with-forcemeat;salt;;9
+buckwheat-in-cream;buckwheat;100 г.;1
+buckwheat-in-cream;chicken;200 г.;2
+buckwheat-in-cream;mushroom;200 г.;3
+buckwheat-in-cream;onion;;4
+buckwheat-in-cream;water;200 мл.;5
+buckwheat-in-cream;cream-20;100 мл.;6
+buckwheat-in-cream;cheese;;7
+buckwheat-in-cream;salt;;8
+cheesecakes;cottage;400 г.;1
+cheesecakes;egg;1 шт.;2
+cheesecakes;flour;1-2 ст.л.;3
+cheesecakes;salt;;4
+cheesecakes;sugar;1 ст.л.;5
+cheesecakes;vanilla-sugar;;6
+plov;rice;300 г.;1
+plov;pork;500 г.;2
+plov;oil;;3
+plov;onion;;4
+plov;carrot;;5
+plov;salt;;6
+rice;rice;2 стакана;1
+rice;water;2.5 стакана;2
+rice;onion;;3
+rice;carrot;;4
+rice;oil;;5
+rice;salt;;7
+rice;butter;30 г.;6
+rice-with-sausages;rice;220 г.;1
+rice-with-sausages;sausage;150-200 г.;2
+rice-with-sausages;carrot;;3
+rice-with-sausages;onion;;4
+rice-with-sausages;garlic;;5
+rice-with-sausages;oil;;6
+rice-with-sausages;salt;;7
+beef-stroganoff-with-mushrooms;beef;400 г.;1
+beef-stroganoff-with-mushrooms;mushroom;400 г.;2
+beef-stroganoff-with-mushrooms;smetana;150 г.;3
+beef-stroganoff-with-mushrooms;butter;40 г.;4
+beef-stroganoff-with-mushrooms;flour;20 г.;5
+beef-stroganoff-with-mushrooms;salt;;6
+rice-with-chicken-mushrooms;rice-circle;200 г.;1
+rice-with-chicken-mushrooms;mushroom;250 г.;3
+rice-with-chicken-mushrooms;onion;;4
+rice-with-chicken-mushrooms;garlic;;5
+rice-with-chicken-mushrooms;cream-20;200 мл.;6
+rice-with-chicken-mushrooms;cheese;50 г.;7
+rice-with-chicken-mushrooms;oil;;8
+rice-with-chicken-mushrooms;salt;;9
+rice-with-chicken-mushrooms;chicken-leg;2 шт.;2
+pan-pizza;smetana;4 ст.л.;1
+pan-pizza;mayonnaise;4 ст.л.;2
+pan-pizza;egg;2 шт.;3
+pan-pizza;flour;9 ст.л.;4
+pan-pizza;tomato;;5
+pan-pizza;sausages;;6
+pan-pizza;pickle;;7
+pan-pizza;cheese;;8
+pan-pizza;ketchup;;9
+pizza;mozzarella;;9
+pizza;tomato-paste;;8
+pizza;oil;25 г.;5
+pizza;tomato-cherry;;11
+pizza;sausage;;10
+pizza;water;310 мл.;1
+pizza;sugar;13 г.;3
+pizza;semolina;для формовки теста;7
+pizza;salt;10 г.;2
+pizza;flour;500 г.;6
+pizza;yeasts;7 г.;4
+mini-pizza;flour;250 г.;1
+mini-pizza;milk;150 мл. (теплое);2
+mini-pizza;yeasts;5 г.;3
+mini-pizza;sugar;1 ч.л.;4
+mini-pizza;salt;0.5 ч.л.;5
+mini-pizza;oil;;6
+mini-pizza;sausage;;7
+mini-pizza;cheese;;8
+mini-pizza;pickle;;9
+mini-pizza;tomato;;10
+sausage-cheese-puffs;dough;500 г.;1
+sausage-cheese-puffs;sausage;200 г.;2
+sausage-cheese-puffs;cheese;200 г.;3
+sausage-cheese-puffs;yolk;2 шт.;4
+sausage-cheese-puffs;milk;;5
+peperoni-pizza;flour;500 г.;1
+peperoni-pizza;egg;1 шт.;2
+peperoni-pizza;yeasts;11 г.;3
+peperoni-pizza;salt;2 ч.л.;4
+peperoni-pizza;sugar;1 ч.л.;5
+peperoni-pizza;milk;300 мл.;6
+peperoni-pizza;oil;50 мл.;7
+peperoni-pizza;tomato-paste;;8
+peperoni-pizza;mayonnaise;;9
+peperoni-pizza;tomato;;10
+peperoni-pizza;mozzarella;;11
+peperoni-pizza;sausage;;12
+mini-pizza-2;dough;400 г.;1
+mini-pizza-2;egg;;2
+mini-pizza-2;ketchup;;3
+mini-pizza-2;sausage;;4
+mini-pizza-2;tomato;;5
+mini-pizza-2;pickle;;6
+mini-pizza-2;mayonnaise;;7
+mini-pizza-2;cheese;;8
+kurniki;kefir;250 мл. (2,5%);1
+pizza-2;water;250 мл. (теплая);1
+pizza-2;sugar;7 г.;2
+pizza-2;salt;6 г.;3
+pizza-2;yeasts;7 г.;4
+pizza-2;flour;380 г.;5
+pizza-2;oil;30 г.;6
+pizza-2;semolina;50 г.;7
+pizza-2;smetana;3 ст.л.;8
+pizza-2;garlic;;9
+pizza-2;lemon-juice;1 ст.л.;10
+pizza-2;chicken;250-300 г.;11
+pizza-2;cheese;250 г.;12
+cordon-bleu;chicken;2 шт.;1
+cordon-bleu;egg;;2
+cordon-bleu;cheese;;3
+cordon-bleu;ham;;4
+cordon-bleu;oil;;6
+cordon-bleu;salt;;7
+chicken-chops;chicken;2 шт.;1
+chicken-chops;egg;3 шт.;2
+chicken-chops;smetana;1 ст.л.;3
+chicken-chops;flour;2-3 ст.л.;4
+chicken-chops;cheese;50 г.;5
+chicken-chops;salt;;6
+crab-cutlets;crab-sticks;200 г.;1
+crab-cutlets;cheese;150 г.;2
+crab-cutlets;egg;2 шт.;3
+crab-cutlets;garlic;;4
+crab-cutlets;salt;;5
+crab-cutlets;flour;2 ст.л.;6
+crab-cutlets;oil;;7
+potato-zrazy;potato;450 г.;1
+potato-zrazy;egg;3 шт.;2
+potato-zrazy;flour;50 г.;3
+potato-zrazy;oil;;4
+potato-zrazy;salt;;5
+backed-potatoes;potato;500 г.;1
+backed-potatoes;cheese;70 г.;2
+backed-potatoes;smetana;50 г. (2 ст.л. с горкой);3
+backed-potatoes;mayonnaise;50 г. (2 ст.л. с горкой);4
+backed-potatoes;garlic;;5
+backed-potatoes;salt;;6
+potato-with-pork;potato;700 г.;1
+potato-with-pork;pork;500 г.;2
+potato-with-pork;onion;;3
+potato-with-pork;salt;;4
+potato-with-forcemeat;potato;;1
+potato-with-forcemeat;forcemeat;;2
+potato-with-forcemeat;onion;;3
+potato-with-forcemeat;salt;;4
+all-in-pan-and-forget;forcemeat;500-600 г.;1
+all-in-pan-and-forget;egg;1 шт.;2
+all-in-pan-and-forget;onion;;3
+all-in-pan-and-forget;carrot;;4
+all-in-pan-and-forget;potato;6-7 шт.;5
+all-in-pan-and-forget;tomato;;6
+all-in-pan-and-forget;tomato-paste;1 ст.л.;7
+all-in-pan-and-forget;salt;;8
+cabbage-with-forcemeat;cabbage;300 г.;1
+cabbage-with-forcemeat;potato;800 г.;2
+cabbage-with-forcemeat;forcemeat;500 г.;3
+cabbage-with-forcemeat;onion;;4
+cabbage-with-forcemeat;carrot;;5
+cabbage-with-forcemeat;tomato-paste;2 ст.л.;6
+cabbage-with-forcemeat;salt;;7
+cabbage-with-sausages;cabbage;300 г.;1
+cabbage-with-sausages;potato;300 г.;2
+cabbage-with-sausages;sausages;6 шт.;3
+cabbage-with-sausages;oil;;4
+cabbage-with-sausages;onion;;5
+cabbage-with-sausages;carrot;;6
+cabbage-with-sausages;water;100 мл.;7
+cabbage-with-sausages;tomato-paste;70 г.;8
+cabbage-with-sausages;salt;;9
+stewed-potato-with-meat;pork;800 г.;1
+stewed-potato-with-meat;potato;1.5 кг.;2
+stewed-potato-with-meat;onion;;3
+stewed-potato-with-meat;carrot;;4
+stewed-potato-with-meat;garlic;;5
+stewed-potato-with-meat;water;300 мл.;6
+stewed-potato-with-meat;butter;50 г.;7
+stewed-potato-with-meat;oil;;8
+stewed-potato-with-meat;salt;;9
+rustic-roast;potato;;1
+rustic-roast;pork;500 г.;2
+rustic-roast;carrot;;3
+rustic-roast;water;;4
+rustic-roast;butter;;5
+rustic-roast;tomato;;6
+rustic-roast;salt;;8
+potato-with-mushrooms;potato;6 шт.;1
+potato-with-mushrooms;mushroom;300 г.;2
+potato-with-mushrooms;onion;;3
+potato-with-mushrooms;oil;;4
+potato-with-mushrooms;salt;;5
+potato-with-stew;stew;1 банка;1
+potato-with-stew;potato;4-5 шт.;2
+potato-with-stew;onion;;3
+potato-with-stew;garlic;;4
+potato-with-stew;carrot;;5
+potato-with-stew;tomato-paste;1-2 ст.л.;6
+potato-with-stew;salt;;7
+potato-with-mushrooms-and-cream;potato;8-10 шт.;1
+potato-with-mushrooms-and-cream;mushroom;300 г.;2
+potato-with-mushrooms-and-cream;onion;;3
+potato-with-mushrooms-and-cream;cream-20;100 мл.;4
+potato-with-mushrooms-and-cream;salt;;5
+belayshi;flour;1 кг.;1
+belayshi;water;250 мл.;2
+belayshi;milk;250 мл.;3
+belayshi;egg;2 шт.;4
+belayshi;yeasts;10 г.;5
+belayshi;salt;2 ч.л.;6
+belayshi;sugar;2 ст.л.;7
+belayshi;oil;50 г.;8
+belayshi;butter;60 г.;9
+nuggets;chicken;400 г.;1
+nuggets;egg;1 шт.;2
+nuggets;cheese;50 г.;3
+nuggets;salt;;4
+cheese-balls;cheese;400 г.;1
+cheese-balls;egg;4 шт.;2
+cheese-balls;flour;4 ст.л.;3
+cheese-balls;breadcrumbs;;4
+cordon-bleu;breadcrumbs;;5
+chicken-strips;salt;;5
+chicken-strips;breadcrumbs;;4
+chicken-strips;egg;3 шт.;2
+chicken-strips;flour;1 стакан;3
+chicken-strips;chicken;3 шт.;1
+chicken-strips;cream-30;250 мл.;6
+chicken-strips;melt-cheese;;7
+lazy-sausages-in-dough;bread;для тостов;1
+lazy-sausages-in-dough;sausages;;2
+lazy-sausages-in-dough;cheese;;3
+lazy-sausages-in-dough;egg;;4
+lazy-sausages-in-dough;oil;;5
+cheese-sticks;mozzarella;230 гр.;1
+cheese-sticks;egg;2-3 шт.;2
+cheese-sticks;breadcrumbs;150 г.;3
+cheese-sticks;butter;45 г.;4
+cheese-sticks;flour;30 г.;5
+cheese-sticks;water;30 мл. (2 ст.л.);6
+cheese-sticks;salt;;7
+nuggets-2;chicken;2 шт.;1
+nuggets-2;flour;1 стакан;2
+nuggets-2;water;1.5 стакана;3
+nuggets-2;salt;;4
+chicken-meatballs;chicken;500 г.;1
+chicken-meatballs;onion;1 шт.;2
+chicken-meatballs;yolk;;3
+chicken-meatballs;breadcrumbs;4 ст.л.;4
+chicken-meatballs;smetana;3 ст.л.;5
+chicken-meatballs;tomato-paste;3 ст.л.;6
+chicken-meatballs;flour;1 ст.л.;7
+chicken-meatballs;water;500 мл.;8
+chicken-meatballs;salt;;9
+pasta-in-cream-with-bacon;pasta;;1
+pasta-in-cream-with-bacon;bacon;;2
+pasta-in-cream-with-bacon;cream-20;;3
+pasta-in-cream-with-bacon;cheese;;4
+ptitim;ptitim;1 упаковка (400 г.);1
+ptitim;water;на 1 стакан птитима - 1.5 стакана воды;2
+ptitim;tomato-cherry;;3
+ptitim;cream-30;200 г.;4
+ptitim;cheese;;5
+potato-sticks;potato;1 кг.;1
+potato-sticks;starch;2 ст.л.;2
+potato-sticks;salt;;3
+potato-sticks;oil;;4
+cheesecakes-2;cottage;360 г. (5-9%);1
+cheesecakes-2;yolk;1 шт.;2
+cheesecakes-2;semolina;30 г.;3
+cheesecakes-2;starch;20 г.;4
+cheesecakes-2;sugar;30 г.;5
+cheesecakes-2;vanillin;;6
+pasta-with-shrimps;shrimp;200 г.;1
+pasta-with-shrimps;pasta;200 г.;2
+pasta-with-shrimps;cream-20;100 мл.;3
+pasta-with-shrimps;cheese;;4
+pasta-with-shrimps;butter;40 г.;5
+pasta-with-shrimps;oil;;6
+pasta-with-shrimps;salt;;7
+roll-with-nuggets;nuggets;1 упаковка;1
+roll-with-nuggets;tortilla;;2
+roll-with-nuggets;salad;;3
+roll-with-nuggets;cucumber;;4
+roll-with-nuggets;greek-yogurt;;5
+roll-with-nuggets;lemon-juice;;6
+roll-with-nuggets;cheese;100 г.;7
+roll-with-nuggets;salt;;8
+caesar-roll;lavash;;1
+caesar-roll;chicken-forcemeat;;2
+caesar-roll;cheese;;3
+caesar-roll;tomato;;4
+caesar-roll;salad;;5
+caesar-roll;caesar-sauce;;6
+caesar-roll;oil;;7
+caesar-roll;salt;;8
+puff-with-kinder;dough-yeasts;;1
+puff-with-kinder;kinder;;2
+puff-with-kinder;yolk;;3
+browne;butter;150 г.;1
+browne;sugar;150 г.;2
+browne;egg;2 шт.;3
+browne;flour;100 г.;4
+browne;kakao;30 г.;5
+browne;salt;0.5 ч.л.;6
+browne;chocolate;100 г.;7
+chocolate-cake;egg;1 шт.;1
+chocolate-cake;sugar;50 г.;2
+chocolate-cake;flour;20 г.;3
+chocolate-cake;starch;20 г.;4
+chocolate-cake;salt;;5
+chocolate-cake;milk;500 мл.;6
+chocolate-cake;butter;50 г.;7
+chocolate-cake;chocolate-cookie;;8
+chocolate-cake;chocolate;1 плитка;9
+chocolate-cake;nuts;для украшения;20
+bounty;coconut-chips;200 г.;1
+bounty;condensed-milk;300 г.;2
+americano-cookies;flour;280 г.;4
+americano-cookies;egg;2 шт.;1
+americano-cookies;sugar;200 г. (1 стакан);2
+americano-cookies;chocolate;чем больше, тем лучше;6
+americano-cookies;butter;180 г.;3
+americano-cookies;baking-powder;1 ч.л. (без горки). Добавлять в самом конце;5
+cupcakes;flour;270-300 г.;1
+cupcakes;sugar;250 г.;2
+cupcakes;smetana;200 г.;3
+cupcakes;butter;50 г.;4
+cupcakes;egg;4 шт.;5
+cupcakes;baking-powder;10 г.;6
+cupcakes;chocolate;капли;7
+cupcake;flour;250 г.;1
+cupcake;butter;170 г.;2
+cupcake;sugar;170 г.;3
+cupcake;egg;3 шт.;4
+cupcake;vanilla-sugar;1 ч.л.;5
+cupcake;baking-powder;0.5 ч.л.;6
+cupcake;salt;;7
+meringue-roll;belok;6 шт.;1
+meringue-roll;sugar;260 г. (мелкий сахар);2
+meringue-roll;salt;;3
+meringue-roll;lemon-juice;1 ч.л.;4
+meringue-roll;cream-30;300 мл. (холодные);6
+meringue-roll;sugar-powder;200 г.;7
+meringue-roll;cottage-cheese;180 г.;8
+cake-3-cups;egg;2 шт.;1
+cake-3-cups;kefir;1 стакан + 1 ч.л. соды;2
+cake-3-cups;sugar;1 стакан;3
+cake-3-cups;flour;1 стакан;4
+cake-3-cups;oil;3 ст.л.;6
+cake-3-cups;cottage-cheese;140 г.;7
+cake-3-cups;boiled-condensed-milk;150 г. + 2 ст.л.;8
+cake-3-cups;cream-30;200 мл.;9
+cake-3-cups;water;100 мл.;10
+cake-3-cups;kakao;1 стакан;5
+meringue-roll-2;belok;170 г. (примерно 5 яиц);1
+meringue-roll-2;sugar;220 г.;2
+meringue-roll-2;lemon-juice;1 ч.л.;4
+meringue-roll-2;cream-30;170 г.;5
+meringue-roll-2;cottage-cheese;250 г.;6
+meringue-roll-2;sugar-powder;40 г.;7
+meringue-roll;corn-starch;40 г.;5
+meringue-roll-2;corn-starch;20 г.;3
+tiramisu;egg;2 шт.;1
+tiramisu;sugar;100 г.;2
+tiramisu;flour;40 г.;3
+tiramisu;starch;40 г.;4
+tiramisu;milk;1 л.;5
+tiramisu;butter;100 г.;6
+tiramisu;shortbread-cookies;350-400 г.;7
+tiramisu;chocolate;90 г.;8
+tiramisu;oil;20 мл.;9
+chocolate-dessert;egg;5 шт.;1
+chocolate-dessert;sugar;150 г.;2
+chocolate-dessert;flour;70 г.;3
+chocolate-dessert;kakao;30 г.;4
+chocolate-dessert;vanillin;;5
+chocolate-dessert;cream-30;260 мл.;6
+chocolate-dessert;cottage-cheese;180 г.;7
+chocolate-dessert;sugar-powder;60 г.;8
+chocolate-dessert;boiled-condensed-milk;1 ст.л.;9
+chocolate-dessert;smetana;3 ст.л.;10
+chocolate-dessert;chocolate;100 г.;11
+bounty;chocolate;200 г.;3
+bounty;oil;25 мл.;4
+snickers-cake;egg;2 шт.;1
+snickers-cake;sugar;5 ст.л.;2
+snickers-cake;flour;0.5 стакана;3
+snickers-cake;kakao;4 ст.л.;4
+snickers-cake;cream-30;300 мл.;5
+snickers-cake;mascarpone;400 г.;6
+snickers-cake;sugar-powder;40 г.;7
+snickers-cake;chocolate;;8
+snickers-cake;oil;;9
+snickers-cake;salted-peanut;30 г.;10
+tiramisu-2;shortbread-cookies;200 г. (печенье с какао);1
+tiramisu-2;egg;1 шт.;2
+tiramisu-2;sugar;50 г.;3
+tiramisu-2;salt;;4
+tiramisu-2;flour;20 г.;5
+tiramisu-2;corn-starch;20 г.;6
+tiramisu-2;milk;500 мл.;7
+tiramisu-2;butter;50 г.;8
+tiramisu-2;chocolate;90 г.;9
+tiramisu-2;oil;40 мл.;10
+glazed-cheese;cottage;300 г.;1
+glazed-cheese;butter;70 г.;2
+glazed-cheese;sugar-powder;;3
+glazed-cheese;chocolate;;4
+moti;rice-flour;100 г.;1
+moti;sugar-powder;50 г.;2
+moti;water;185 мл.;3
+moti;food-coloring;;4
+moti;cottage-cheese;200 г.;5
+moti;berry-jam;;6
+moti;corn-starch;;7
+snickers-cheesecake;chocolate-cookie;300 г.;1
+snickers-cheesecake;butter;170 г.;2
+snickers-cheesecake;cottage-cheese;540 г.;3
+snickers-cheesecake;egg;3 шт.;4
+snickers-cheesecake;cream-30;350 мл.;5
+snickers-cheesecake;sugar;300 г.;6
+snickers-cheesecake;salt;;7
+snickers-cheesecake;salted-peanut;200 г.;8
+rafaello-roll;belok;5 шт.;1
+rafaello-roll;salt;;2
+rafaello-roll;lemon-juice;1 ч.л.;3
+rafaello-roll;sugar-powder;350 г.;4
+rafaello-roll;starch;2 ст.л.;5
+rafaello-roll;butter;150 г.;6
+rafaello-roll;cottage-cheese;400 г.;7
+rafaello-roll;coconut-chips;2 ст.л.;8
+moti-2;rice-flour;100 г.;1
+moti-2;water;170 мл.;2
+moti-2;sugar-powder;50 г.;3
+moti-2;corn-starch;3-5 ст.л.;4
+moti-2;oil;1 ст.л.;5
+moti-2;food-coloring;;6
+moti-2;mascarpone;400-450 г.;7
+moti-2;berry-jam;;8
+salad-with-pickles-and-sausage;sausage;150 г.;1
+salad-with-pickles-and-sausage;pickle;100 г.;2
+salad-with-pickles-and-sausage;corn;130 г.;3
+salad-with-pickles-and-sausage;egg;3 шт.;4
+salad-with-pickles-and-sausage;crouton;30 г.;5
+salad-with-pickles-and-sausage;mayonnaise;по вкусу;6
+salad-with-chicken;cucumber;;1
+salad-with-chicken;tomato;;2
+salad-with-chicken;smoked-chicken;;3
+salad-with-chicken;cheese;;4
+salad-with-chicken;mayonnaise;;5
+salad-with-chicken;crouton;;6
+salad-with-chicken;salt;;7
+crab-salad;corn;400 г.;1
+crab-salad;egg;2 шт.;2
+crab-salad;crab-sticks;200 г.;3
+crab-salad;cucumber;1 шт.;4
+crab-salad;rice;0.5 стакана;5
+crab-salad;mayonnaise;;6
+salad-nejnost;smoked-chicken;400 г.;1
+salad-nejnost;corn;200 г.;2
+salad-nejnost;egg;3 шт.;3
+salad-nejnost;cheese;100 г.;4
+salad-nejnost;canned-pineapple;200 г.;5
+salad-nejnost;mayonnaise;3 ст.л.;6
+salad-nejnost;salt;;7

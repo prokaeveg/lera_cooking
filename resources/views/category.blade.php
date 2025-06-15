@@ -71,9 +71,11 @@
                 <div class="receipt-title">
                     <span>{{ $receipt->name }}</span>
                 </div>
-                <div class="receipt-ingredients">
-                    <strong>Состав:</strong> {{ $receipt->ingredientsForList() }}
-                </div>
+                @if($ingredients = $receipt->ingredientsForList())
+                    <div class="receipt-ingredients">
+                        <strong>Состав:</strong> {{ $ingredients }}
+                    </div>
+                @endif
             </div>
         </a>
     @endforeach
