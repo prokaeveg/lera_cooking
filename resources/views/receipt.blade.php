@@ -104,6 +104,90 @@
             text-decoration: none;
             color: #662e06;
         }
+
+        .recipe-content {
+            font-family: 'GraublauWeb', serif;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #4b2200;
+            max-width: 800px;
+        }
+
+        .receipt-content-item {
+            background-color: #fef2e6;
+            padding: 1rem;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe-content h1,
+        .recipe-content h2,
+        .recipe-content h3,
+        .recipe-content h4 {
+            font-family: 'GraublauWeb', serif;
+            color: #4b2200;
+            margin-top: 0.8rem;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+
+        .recipe-content h1 {
+            font-size: 2rem;
+            border-bottom: 2px solid #4b2200;
+            padding-bottom: 0.3rem;
+        }
+
+        .recipe-content h2 {
+            font-size: 1.6rem;
+            padding-left: 0.5rem;
+        }
+
+        .recipe-content h3 {
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+        .recipe-content h4 {
+            font-size: 1.1rem;
+            font-style: italic;
+        }
+
+        .recipe-content p {
+            margin-bottom: 1rem;
+        }
+
+        .recipe-content ul {
+            margin-bottom: 1rem;
+        }
+
+        .recipe-content ul {
+            list-style-type: disc;
+        }
+
+        .recipe-content li {
+            margin-bottom: 0.4rem;
+            padding-left: 0.3rem;
+        }
+
+        .recipe-content strong {
+            color: #2e1200;
+            font-weight: bold;
+        }
+
+        .recipe-content em {
+            font-style: italic;
+            color: #5c2c00;
+        }
+
+        .recipe-content blockquote {
+            margin: 1.5rem 0;
+            padding: 0.7rem 1.2rem;
+            background-color: #fdf8f3;
+            border-left: 4px solid #a65b2d;
+            color: #3b1a00;
+            font-style: italic;
+        }
     </style>
 @endpush
 
@@ -145,11 +229,11 @@
             </div>
         @endif
 
-        @if (!empty($receipt->steps))
+        @if (!empty($receipt->steps) && ($steps = json_decode($receipt->steps, true, 512, JSON_THROW_ON_ERROR)) && count($steps) > 0)
             <h3>Пошаговый рецепт:</h3>
             <div class="steps">
                 <div class="cooking-steps">
-                    @foreach (json_decode($receipt->steps, true, 512, JSON_THROW_ON_ERROR) as $index => $stepText)
+                    @foreach ($steps as $index => $stepText)
                         <div class="step">
                             @if(file_exists(public_path("images/steps/{$receipt->code}/step" . ($index + 1) . ".jpg")))
                                 <img src="{{ asset("images/steps/{$receipt->code}/step" . ($index + 1) . ".jpg") }}"
@@ -164,6 +248,13 @@
                         @endif
                     @endforeach
                 </div>
+            </div>
+        @endif
+        @if($receipt->html)
+            <div class="recipe-content">
+                @php
+                    echo $receipt->html;
+                @endphp
             </div>
         @endif
         @if($receipt->source)

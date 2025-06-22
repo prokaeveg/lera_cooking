@@ -23,7 +23,6 @@ tortilla;sausage;;3
 tortilla;cheese;;4
 tortilla;ketchup;;5
 pancakes;sugar;3 ст.л.;3
-pancakes;egg;1 шт;2
 pancakes;salt;0.5 ст.л.;4
 pancakes;soda;0.5 ч.л.;6
 pancakes;kefir;250 мл.;1
@@ -828,3 +827,102 @@ salad-nejnost;cheese;100 г.;4
 salad-nejnost;canned-pineapple;200 г.;5
 salad-nejnost;mayonnaise;3 ст.л.;6
 salad-nejnost;salt;;7
+chebureks-2;flour;500 г.;1
+chebureks-2;oil;430 мл.;3
+chebureks-2;salt;;4
+chebureks-2;forcemeat;380 г.;5
+kefir-marinade;onion;8 шт.;1
+kefir-marinade;kefir;600 мл.;2
+kefir-marinade;oil;;3
+kefir-marinade;salt;;4
+onion-marinade;salt;;2
+onion-marinade;onion;500 г.;1
+mayonnaise-marinade;oil;250 мл.;1
+mayonnaise-marinade;mineral-water-still;250 мл.;2
+mayonnaise-marinade;egg;2 шт.;3
+mayonnaise-marinade;mustard;1 ст.л.;4
+mayonnaise-marinade;lemon-juice;1 ст.л.;5
+mayonnaise-marinade;sugar;0.5 ч.л.;6
+mayonnaise-marinade;salt;;7
+chicken-schnitzel;chicken;2 шт.;1
+chicken-schnitzel;egg;2 шт.;2
+chicken-schnitzel;flour;100-200 г.;3
+chicken-schnitzel;salt;;4
+chicken-schnitzel;oil;;5
+chebureks-2;water;250 мл.;2
+chebureks-2;warm-water;100 мл.;0
+potato-sticks-2;potato;6 шт.;1
+potato-sticks-2;salt;;2
+potato-sticks-2;corn-starch;5 ст.л.;3
+potato-sticks-2;oil;;4
+potato-sticks-2;smetana;3 ст.л.;5
+potato-sticks-2;mayonnaise;3 ст.л.;6
+potato-sticks-2;garlic;3 зубчика;7
+peach-lemonade;honey-or-sugar;;2
+peach-lemonade;ice;;5
+peach-lemonade;fresh-mint;;4
+peach-lemonade;mineral-water-gaze;;6
+peach-lemonade;peach;3 шт.;1
+peach-lemonade;lemon;1/4 шт.;3
+fresh-lemonade;orange;1 шт.;1
+fresh-lemonade;lemon;1 шт.;2
+fresh-lemonade;kiwi;4 шт.;3
+fresh-lemonade;sugar;100 г.;4
+fresh-lemonade;mineral-water-gaze;1.5 л.;5
+potato-cutlets;potato;1 кг.;1
+potato-cutlets;salt;;2
+potato-cutlets;sausage;200 г.;3
+potato-cutlets;starch;60 г.;4
+potato-cutlets;mozzarella;100 г.;5
+potato-cutlets;oil;;6
+big-hit-salad;iceberg-salad;1 шт.;1
+big-hit-salad;pickle;3 шт.;2
+big-hit-salad;tomato-cherry;20 шт.;3
+big-hit-salad;cheddar;100 г.;4
+big-hit-salad;forcemeat;400 г.;5
+big-hit-salad;salt;;6
+big-hit-salad;mayonnaise;3 ст.л.;7
+big-hit-salad;ketchup;1 ст.л.;8
+big-hit-salad;mustard;1 ч.л.;9
+big-hit-salad;honey;1 ч.л.;10
+big-hit-salad;pickle-brine;1 ст.л.;11
+chicken-sauce-with-mushrooms;chicken;1 шт.;1
+chicken-sauce-with-mushrooms;onion;1 шт.;2
+chicken-sauce-with-mushrooms;mushroom;200 г.;3
+chicken-sauce-with-mushrooms;tomato-paste;2 ст.л.;4
+chicken-sauce-with-mushrooms;water;150 мл.;5
+chicken-sauce-with-mushrooms;cream-20;200 мл.;6
+chicken-sauce-with-mushrooms;salt;;7
+brazil-lemonade;lime;1 шт.;1
+brazil-lemonade;condensed-milk;50 г.;2
+brazil-lemonade;water;50-100 мл.;3
+brazil-lemonade;ice;;4
+brazil-lemonade;mineral-water-gaze;150-200 мл.;5
+lemonade-kiwi-lime;kiwi;1 шт.;1
+lemonade-kiwi-lime;lime;0.5 шт. (несколько долек);2
+lemonade-kiwi-lime;honey;1-2 ч.л.;3
+lemonade-kiwi-lime;ice;;4
+lemonade-kiwi-lime;mineral-water-gaze;200 мл.;5
+pancakes;egg;1 шт.;2
+lemonade-strawberry-lemon-mint;strawberry;6 крупных;1
+lemonade-strawberry-lemon-mint;lemon;0.5 шт.;2
+lemonade-strawberry-lemon-mint;fresh-mint;;3
+lemonade-strawberry-lemon-mint;ice;;4
+lemonade-strawberry-lemon-mint;honey;;5
+lemonade-strawberry-lemon-mint;mineral-water-gaze;200 мл.;6
+cheese-tortillas;kefir;300 мл.;1
+cheese-tortillas;egg;2 шт.;2
+cheese-tortillas;salt;1 ч.л.;3
+cheese-tortillas;sugar;1 ч.л.;4
+cheese-tortillas;oil;;5
+cheese-tortillas;flour;450 г. + для замешивания;6
+cheese-tortillas;baking-powder;10 г.;7
+cheese-tortillas;cheese;350 г.;8
+bounty-cheesecake;biscuit;350 г.;1
+bounty-cheesecake;butter;100 г.;2
+bounty-cheesecake;instant-gelatin;10 г.;3
+bounty-cheesecake;water;100 мл.;4
+bounty-cheesecake;cottage-cheese;500 г.;5
+bounty-cheesecake;condensed-milk;150 г.;6
+bounty-cheesecake;cream-30;170 мл.;7
+bounty-cheesecake;coconut-chips;90 г. + для посыпки;8
