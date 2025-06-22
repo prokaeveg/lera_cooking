@@ -15,7 +15,6 @@ $content = preg_replace('#/category/([a-zA-Z-]*)#', 'category/$1/index.html', $c
 file_put_contents($indexFile, $content);
 
 $categories = glob($categoryDir . '/*');
-$categories = [$categories[10]];
 foreach ($categories as $category) {
     $fileName = $category . '/index.html';
     $content = file_get_contents($category . '/index.html');
