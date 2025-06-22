@@ -11,6 +11,6 @@ class Category extends Model
 
     public function receipts(): HasMany
     {
-        return $this->hasMany(Receipt::class, 'category_code', 'code')->orderBy('sort')->orderByDesc('id');
+        return $this->hasMany(Receipt::class, 'category_code', 'code')->orderBy('sort');
     }
 }
