@@ -220,7 +220,14 @@
         @endif
 
         @if ($receipt->video)
-            <h3>Видео рецепт:</h3>
+            @php
+                if ($receipt->category_code === 'lifehack') {
+                    $title = 'Видео:';
+                } else {
+                    $title = 'Видео рецепт:';
+                }
+             @endphp
+            <h3>@php echo $title; @endphp</h3>
             <div class="video">
                 <iframe width="720" height="405"
                         src="https://rutube.ru/play/embed/{{ $receipt->video }}" frameBorder="0"
