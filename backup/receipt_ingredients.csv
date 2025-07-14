@@ -1,4 +1,3 @@
-receipt_code;ingredient_code;amount;sort
 hot-egg-sandwich;bread;;2
 hot-egg-sandwich;cheese;;3
 hot-egg-sandwich;ham;;4
@@ -950,3 +949,10 @@ roll-with-egg-cheese;boiled-egg;2 шт.;2
 roll-with-egg-cheese;cheese;30 г.;3
 roll-with-egg-cheese;smetana;2 ч.л.;4
 roll-with-egg-cheese;salt;;5
+cheese-soup-with-sausages;potato;2-3 шт.;1
+cheese-soup-with-sausages;water;2 л.;2
+cheese-soup-with-sausages;smoked-sausage;200 г.;3
+cheese-soup-with-sausages;onion;1 шт.;4
+cheese-soup-with-sausages;carrot;1 шт.;5
+cheese-soup-with-sausages;melt-cheese;3 ст.л.;6
+cheese-soup-with-sausages;salt;;7
