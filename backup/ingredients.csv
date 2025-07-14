@@ -1,3 +1,4 @@
+id;name;code
 1;Яйца;egg
 2;Хлеб;bread
 3;Сыр;cheese
@@ -120,5 +121,9 @@
 123;Клубника;strawberry
 124;Печенье;biscuit
 125;Быстрорастворимый желатин;instant-gelatin
+126;Горох сушёный;dried-pea
+127;Ребрышки копчёные;smoked-ribs
+128;Колбаски копчёные;smoked-sausage
+129;Вареные яйца;boiled-egg
 106;Минеральная вода без газа;mineral-water-still
 107;Минеральная вода с газом;mineral-water-gaze

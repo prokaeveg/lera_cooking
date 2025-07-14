@@ -1,3 +1,4 @@
+receipt_code;ingredient_code;amount;sort
 hot-egg-sandwich;bread;;2
 hot-egg-sandwich;cheese;;3
 hot-egg-sandwich;ham;;4
@@ -936,3 +937,16 @@ buckwheat-2;salt;;4
 buckwheat-2;buckwheat;1 стакан;1
 buckwheat-2;water;2 стакана;2
 buckwheat-2;butter;;3
+pea-soup;dried-pea;300 г.;1
+pea-soup;smoked-ribs;1 кг.;2
+pea-soup;smoked-sausage;2-3 шт.;3
+pea-soup;potato;2-3 шт.;4
+pea-soup;carrot;1 шт.;5
+pea-soup;onion;1 шт.;6
+pea-soup;water;3 л.;7
+pea-soup;salt;;8
+roll-with-egg-cheese;tortilla;;1
+roll-with-egg-cheese;boiled-egg;2 шт.;2
+roll-with-egg-cheese;cheese;30 г.;3
+roll-with-egg-cheese;smetana;2 ч.л.;4
+roll-with-egg-cheese;salt;;5
