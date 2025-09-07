@@ -1,4 +1,3 @@
-id;name;code
 1;Яйца;egg
 2;Хлеб;bread
 3;Сыр;cheese
@@ -125,5 +124,21 @@ id;name;code
 127;Ребрышки копчёные;smoked-ribs
 128;Колбаски копчёные;smoked-sausage
 129;Вареные яйца;boiled-egg
+130;Арбуз;watermelon
+131;Батон;baton
+132;Квас;kvas
+133;Моцарелла твёрдая;mozzarella-hard
+134;Вареная колбаса;boiled-sausage
+135;Горох;pea
+136;Говяжий фарш;beef-forcemeat
+137;Жаренный лук (который сушеный);fried-onions
+138;Соевый соус;soy-sauce
+139;Кабачок;zucchini
+140;Кокосовое молоко;coconut-milk
+141;Паста том ям;tom-yam-paste
+142;Свиные ребра;pork-ribs
+143;Сладкая паприка;sweet-paprika
+144;Сухой чеснок;dried-garlic
+145;Теплое молоко;warm-milk
 106;Минеральная вода без газа;mineral-water-still
 107;Минеральная вода с газом;mineral-water-gaze
