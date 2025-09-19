@@ -1,3 +1,4 @@
+id;name;code;image;sort
 1;Десерты;desserts;десерты.png;140
 2;Пицца;pizza;пицца.png;120
 3;Блюда из мяса;meat;мясо.png;40
@@ -16,3 +17,4 @@
 16;Маринады;marinade;маринад.png;137
 17;Лимонады;lemonade;лимонад.png;149
 18;Лайфхаки;lifehack;лайфхаки.png;150
+19;Гарниры;garnirs;гарниры.png;1

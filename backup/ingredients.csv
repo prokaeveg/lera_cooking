@@ -1,3 +1,4 @@
+id;name;code
 1;Яйца;egg
 2;Хлеб;bread
 3;Сыр;cheese
@@ -140,5 +141,22 @@
 143;Сладкая паприка;sweet-paprika
 144;Сухой чеснок;dried-garlic
 145;Теплое молоко;warm-milk
+146;Замороженный картофель;free
+147;Соус шрирача;sriracha
 106;Минеральная вода без газа;mineral-water-still
 107;Минеральная вода с газом;mineral-water-gaze
+148;Шоколадное песочное печенье;chocolate-shortbread-cookies
+149;Желатин;gelatin
+150;Белый шоколад;white-chocolate
+151;Воздушная кукуруза;air-corn
+152;Булгур;bulgur
+153;Пломбир;plombir
+154;Шоколадный сироп;chocolate-syrup
+155;Карамельный сироп;caramel-syrup
+156;Арахисовая паста;peanut-butter
+157;Арахис;peanut
+158;Взбитые сливки;air-creme
+159;Банан;banana
+160;Лососевая копченая икра;salmon-caviar-smoked
+161;Карпачо;carpacho
+162;Морковь по корейски;korea-carrot

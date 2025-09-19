@@ -1,3 +1,4 @@
+receipt_code;ingredient_code;amount;sort
 hot-egg-sandwich;bread;;2
 hot-egg-sandwich;cheese;;3
 hot-egg-sandwich;ham;;4
@@ -237,7 +238,6 @@ pie-with-rice;egg;3 шт.;4
 pie-with-rice;rice;30 г.;5
 pie-with-rice;baking-powder;1 ч.л.;6
 pie-with-rice;salt;;8
-pie-cheeseburger;oil;;5
 pie-cheeseburger;onion;;9
 pie-cheeseburger;cheese;;11
 pie-cheeseburger;yeasts;5 г.;1
@@ -1109,3 +1109,91 @@ belayshi-2;sugar;0.5 ст.л.;6
 belayshi-2;warm-water;110 мл.;7
 belayshi-2;warm-milk;110 мл.;8
 belayshi-2;oil;15 мл.;9
+potato-free;free;;1
+potato-free;oil;;2
+potato-free;salt;;3
+chopped-cutlets-1;chicken;650 г.;1
+chopped-cutlets-1;corn;240 г.;2
+chopped-cutlets-1;egg;;3
+chopped-cutlets-1;flour;4 ст.л.;4
+chopped-cutlets-1;smetana;3 ст.л.;5
+chopped-cutlets-1;cheese;80 г.;6
+chopped-cutlets-1;salt;;7
+chopped-cutlets-2;chicken;650 г.;1
+chopped-cutlets-2;tomato-cherry;150 г.;2
+chopped-cutlets-2;egg;;3
+chopped-cutlets-2;flour;4 ст.л.;4
+chopped-cutlets-2;smetana;3 ст.л.;5
+chopped-cutlets-2;cheese;70 г.;6
+chopped-cutlets-2;salt;;7
+chopped-cutlets-3;chicken;650 г.;1
+chopped-cutlets-3;mushroom;400 г.;2
+chopped-cutlets-3;egg;;3
+chopped-cutlets-3;flour;4 ст.л.;4
+chopped-cutlets-3;smetana;3 ст.л.;5
+chopped-cutlets-3;cheese;70 г. (по желанию);6
+chopped-cutlets-3;salt;;7
+shrimp-roll;shrimp;600 г.;1
+shrimp-roll;iceberg-salad;200 г.;2
+shrimp-roll;lavash;;3
+shrimp-roll;greek-yogurt;300 г.;4
+shrimp-roll;garlic;2 зубчика;5
+shrimp-roll;cheese;160 г.;6
+shrimp-roll;honey;10 г.;7
+shrimp-roll;sriracha;20 г.;8
+shrimp-roll;soy-sauce;50 мл.;9
+cheesecakes-kinder-country;chocolate-shortbread-cookies;300 г.;1
+cheesecakes-kinder-country;butter;100 г.;2
+cheesecakes-kinder-country;cottage-cheese;500 г.;3
+cheesecakes-kinder-country;cream-30;300 мл.;4
+cheesecakes-kinder-country;condensed-milk;200 г.;5
+cheesecakes-kinder-country;gelatin;15 г. + вода 70 г.;6
+cheesecakes-kinder-country;white-chocolate;100 г.;7
+cheesecakes-kinder-country;chocolate;100 г.;8
+cheesecakes-kinder-country;air-corn;50-70 г.;9
+pie-cheeseburger;oil;40 г.;5
+chicken-chops-soy;chicken;600 г. (2 шт.);1
+chicken-chops-soy;egg;2 шт.;2
+chicken-chops-soy;soy-sauce;2 ст.л.;3
+chicken-chops-soy;flour;30 г.;4
+chicken-chops-soy;oil;5 ст.л.;5
+chicken-chops-soy;salt;;6
+bulgur;bulgur;350 г.;1
+bulgur;water;600 мл.;2
+bulgur;butter;60 г.;3
+bulgur;salt;;4
+garlic-sauce;smetana;2 ст.л.;1
+garlic-sauce;mayonnaise;2 ст.л.;2
+garlic-sauce;kefir;200 мл.;3
+garlic-sauce;garlic;;4
+garlic-sauce;salt;;5
+snickers-cocktail;milk;120 мл.;1
+snickers-cocktail;plombir;150 г.;2
+snickers-cocktail;chocolate-syrup;10 мл.;3
+snickers-cocktail;caramel-syrup;20 мл.;4
+snickers-cocktail;peanut-butter;1 ст.л.;5
+snickers-cocktail;air-creme;;7
+snickers-cocktail;peanut;10 г.;6
+chocolate-bananza-cocktail;banana;1 шт.;1
+chocolate-bananza-cocktail;chocolate;половина плитки;2
+chocolate-bananza-cocktail;plombir;6 ст.л.;3
+chocolate-bananza-cocktail;milk;150 мл.;4
+chicken-under-cheese;chicken;2 шт.;1
+chicken-under-cheese;mayonnaise;200 г.;2
+chicken-under-cheese;cheese;200 г.;3
+chicken-under-cheese;mozzarella;200 г.;4
+chicken-under-cheese;egg;1 шт.;5
+chicken-under-cheese;starch;1 ст.л.;6
+chicken-under-cheese;garlic;1 зубчик;7
+chicken-under-cheese;salt;;8
+chicken-under-cheese;water;1/3 стакана;9
+hot-sandwiches-with-caviar;crab-sticks;150 г.;1
+hot-sandwiches-with-caviar;salmon-caviar-smoked;1/2 банки;2
+hot-sandwiches-with-caviar;mayonnaise;2 ч.л.;3
+hot-sandwiches-with-caviar;cheese;60 г.;4
+hot-sandwiches-with-caviar;bread;;5
+salad-carpacho-corn;carpacho;200 г.;1
+salad-carpacho-corn;korea-carrot;150 г.;2
+salad-carpacho-corn;corn;150 г.;3
+salad-carpacho-corn;greek-yogurt;;4
+salad-carpacho-corn;mustard;;5
