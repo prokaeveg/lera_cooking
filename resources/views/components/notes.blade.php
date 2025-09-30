@@ -18,6 +18,14 @@
                 box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
                 position: relative;
             }
+
+
+            @media (min-width: 700px) and (max-width: 1200px) {
+                .note-item {
+                    padding: 1rem 1rem;
+                    margin-bottom: 1rem;
+                }
+            }
         </style>
     @endpush
 

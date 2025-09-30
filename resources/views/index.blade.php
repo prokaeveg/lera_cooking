@@ -35,7 +35,7 @@
 
         .category-title {
             margin-top: 15px;
-            font-size: 2.2vh;
+            font-size: 2rem;
             text-align: center;
             color: #331800;
             font-weight: bold;

@@ -42,7 +42,7 @@
         }
 
         .receipt-title {
-            font-size: 3vh;
+            font-size: 2.2rem;
             color: #662e06;
             text-align: center;
             padding: 25px 0 15px;
@@ -50,13 +50,57 @@
 
         .receipt-ingredients {
             padding: 12px 16px;
-            font-size: 2vh;
+            font-size: 1.5rem;
             color: #662e06;
         }
 
         .receipt-ingredients strong {
             color: #662e06;
         }
+        @media (min-width: 700px) and (max-width: 1200px) {
+            .container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+                padding: 0 16px 32px;
+                box-sizing: border-box;
+                margin: auto;
+            }
+
+            .receipt-link {
+                width: 100%;
+            }
+
+            .receipt-card {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between; /* ингредиенты прижмутся вниз */
+                height: 100%;
+                margin-bottom: 0;
+            }
+
+            .receipt-img {
+                width: 100%;
+                aspect-ratio: 4 / 2;
+                object-fit: cover;
+                display: block;
+            }
+
+            .receipt-title {
+                text-align: center;
+                min-height: 60px; /* одинаковая высота заголовка */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .receipt-ingredients {
+                margin-top: auto; /* гарантирует, что блок уйдёт вниз */
+                padding: 12px 16px;
+            }
+        }
+
+
     </style>
 @endpush
 

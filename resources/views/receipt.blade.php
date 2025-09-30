@@ -68,10 +68,6 @@
             margin-bottom: 20px;
         }
 
-        .step {
-            margin-bottom: 2rem;
-        }
-
         .step img {
             width: 100%;
             max-height: 400px;
@@ -110,7 +106,6 @@
             font-size: 1.2rem;
             line-height: 1.6;
             color: #4b2200;
-            max-width: 800px;
         }
 
         .receipt-content-item {
@@ -188,6 +183,71 @@
             color: #3b1a00;
             font-style: italic;
         }
+
+        @media (min-width: 700px) and (max-width: 1200px) {
+            .title {
+                font-size: 3rem;
+            }
+
+            body {
+                font-size: 1.4rem;
+            }
+
+            .ingredients h3, h3 {
+                font-size: 2rem;
+            }
+
+            .ingredients-columns {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px 20px;
+            }
+
+            .receipt-header {
+                display: flex;
+                gap: 20px;
+                align-items: flex-start;
+                margin-bottom: 3em;
+            }
+
+            .receipt-header .recipe-image {
+                width: 60%;
+                margin-bottom: 0;
+            }
+            .recipe-image-center {
+                width: 60%;
+                margin: auto;
+                border-radius: 12px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                aspect-ratio: 4 / 2;
+                object-fit: cover;
+            }
+
+            .receipt-header .ingredients {
+                width: 40%;
+                margin-bottom: 0;
+            }
+
+            .cooking-steps {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 40px 20px;
+            }
+
+            .cooking-steps .step {
+                margin-bottom: 0;
+            }
+
+            .cooking-steps .step-divider {
+                display: none;
+            }
+            .receipt-content-item h2 {
+                font-size: 2rem;
+            }
+            .receipt-content-item {
+                font-size: 1.4rem;
+            }
+        }
     </style>
 @endpush
 
@@ -195,21 +255,49 @@
     <div class="container">
         <h1 class="title">{{ $receipt->name }}</h1>
 
-        <img src="{{ url(sprintf("%s/%s", 'images/receipts', $receipt->code . '.jpg')) }}" alt="{{ $receipt->name }}"
-             class="recipe-image">
+        @if($receipt->ingredients->count() > 7)
+            {{-- Вариант: много ингредиентов --}}
+            <img src="{{ url(sprintf("%s/%s", 'images/receipts', $receipt->code . '.jpg')) }}"
+                 alt="{{ $receipt->name }}" class="recipe-image">
 
-        @if(!$receipt->ingredients->isEmpty())
             <div class="ingredients">
                 <h3>Ингредиенты:</h3>
-                @foreach ($receipt->ingredients as $ingredient)
-                    <div class="ingredient-item">
-                        @if ($ingredient->pivot->amount)
-                            {{ $ingredient->name }} - {{ $ingredient->pivot->amount }}
-                        @else
-                            {{ $ingredient->name }}
-                        @endif
+                <div class="ingredients-columns">
+                    @foreach ($receipt->ingredients as $ingredient)
+                        <div class="ingredient-item">
+                            @if ($ingredient->pivot->amount)
+                                {{ $ingredient->name }} - {{ $ingredient->pivot->amount }}
+                            @else
+                                {{ $ingredient->name }}
+                            @endif
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        @elseif(($receipt->ingredients->count() === 0))
+            <div class="receipt-header">
+                <img src="{{ url(sprintf("%s/%s", 'images/receipts', $receipt->code . '.jpg')) }}"
+                     alt="{{ $receipt->name }}" class="recipe-image-center">
+            </div>
+            @else
+            <div class="receipt-header">
+                <img src="{{ url(sprintf("%s/%s", 'images/receipts', $receipt->code . '.jpg')) }}"
+                     alt="{{ $receipt->name }}" class="recipe-image">
+
+                @if(!$receipt->ingredients->isEmpty())
+                    <div class="ingredients">
+                        <h3>Ингредиенты:</h3>
+                        @foreach ($receipt->ingredients as $ingredient)
+                            <div class="ingredient-item">
+                                @if ($ingredient->pivot->amount)
+                                    {{ $ingredient->name }} - {{ $ingredient->pivot->amount }}
+                                @else
+                                    {{ $ingredient->name }}
+                                @endif
+                            </div>
+                        @endforeach
                     </div>
-                @endforeach
+                @endif
             </div>
         @endif
 
