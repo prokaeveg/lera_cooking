@@ -62,7 +62,6 @@ toast-crab;crab-sticks;;2
 toast-crab;tomato;;3
 toast-crab;cottage-cheese;;4
 toast-crab;salt;;5
-meat-casserole;forcemeat;;1
 meat-casserole;potato;3 шт.;2
 meat-casserole;tomato;1 шт.;3
 meat-casserole;onion;;4
@@ -132,6 +131,7 @@ lasagna;onion;;3
 lasagna;bouillon;200 мл.;4
 lasagna;cheese;;5
 lasagna;tomato-paste;2 ст.л.;6
+meat-casserole;forcemeat;300 г.;1
 lasagna;oil;1 ст.л.;7
 lasagna;milk;500 мл.;8
 lasagna;butter;80 г.;9
@@ -1187,3 +1187,41 @@ salad-carpacho-corn;korea-carrot;150 г.;2
 salad-carpacho-corn;corn;150 г.;3
 salad-carpacho-corn;greek-yogurt;;4
 salad-carpacho-corn;mustard;;5
+smoothie-apple-banana-kiwi;kiwi;1 шт.;3
+smoothie-apple-banana-kiwi;honey;1 ч.л.;4
+smoothie-apple-banana-kiwi;apple;1 шт.;1
+smoothie-apple-banana-kiwi;banana;1 шт.;2
+smoothie-apple-banana-kiwi;kefir-or-milk;1 стакан (250 мл.);5
+smoothie-breakfast;milk;1 стакан;1
+smoothie-breakfast;banana;1 шт.;2
+smoothie-breakfast;oatmeal;2 ст.л.;3
+smoothie-breakfast;honey;1 ст.л.;4
+smoothie-banana-apple;apple;300 г.;1
+smoothie-banana-apple;kiwi;270 г.;2
+smoothie-banana-apple;milk;250 мл.;3
+smoothie-banana-apple;honey-or-sugar;40 г.;4
+cocktail-tropicana;honey-or-sugar;;4
+cocktail-tropicana;banana;3-4 шт.;2
+cocktail-tropicana;milk;400 мл.;1
+cocktail-tropicana;orange-juice;400 мл.;3
+smoothie-banana-cacao;banana;80 г. (1 шт. среднего размера);2
+cocktail-banana-raspberry;milk;200 мл.;1
+cocktail-banana-raspberry;banana;100 г.;2
+smoothie-banana-cacao;kakao;2 ч.л. (или по вкусу);3
+smoothie-banana-cacao;milk;300 мл.;1
+cocktail-banana-raspberry;raspberry;80 г.;3
+cocktail-banana-raspberry;honey;;4
+smoothie-banana-blackcurrant;blackcurrant;200 г.;1
+smoothie-banana-blackcurrant;banana;200 г.;2
+smoothie-banana-blackcurrant;milk;100 мл.;3
+smoothie-banana-blackcurrant;kefir;100 мл.;4
+smoothie-banana-blackcurrant;honey-or-sugar;;5
+harcho;pork;600 г.;1
+harcho;potato;2-3 шт. (по желанию);2
+harcho;onion;2 шт.;3
+harcho;rice;100 г.;4
+harcho;garlic;;5
+harcho;tomato;3-4 шт.;6
+harcho;or-tomato-paste;2 ч.л.;7
+harcho;water;2.5 л.;8
+harcho;salt;;9
