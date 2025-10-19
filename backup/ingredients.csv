@@ -1,4 +1,3 @@
-id;name;code
 1;Яйца;egg
 2;Хлеб;bread
 3;Сыр;cheese
@@ -121,6 +120,8 @@ id;name;code
 123;Клубника;strawberry
 124;Печенье;biscuit
 125;Быстрорастворимый желатин;instant-gelatin
+203;Заправка;zapravka
+204;Основа для 1 лепешки:;curd-lavash-with-smth-title
 126;Горох сушёный;dried-pea
 127;Ребрышки копчёные;smoked-ribs
 128;Колбаски копчёные;smoked-sausage
@@ -167,3 +168,5 @@ id;name;code
 198;Малина;raspberry
 199;Черная смородина;blackcurrant
 200;или томатная паста;or-tomato-paste
+201;Стейк из лосося;salmon-steak
+202;Соус сладкий чили;sweet-chili-sauce

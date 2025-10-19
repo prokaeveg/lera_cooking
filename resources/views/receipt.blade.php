@@ -22,6 +22,13 @@
             margin-bottom: 1.5rem;
         }
 
+        .recipe-image-center {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 1.5rem;
+        }
+
         .ingredients {
             background-color: #fef2e6;
             padding: 1rem;
@@ -279,7 +286,7 @@
                 <img src="{{ url(sprintf("%s/%s", 'images/receipts', $receipt->code . '.jpg')) }}"
                      alt="{{ $receipt->name }}" class="recipe-image-center">
             </div>
-            @else
+        @else
             <div class="receipt-header">
                 <img src="{{ url(sprintf("%s/%s", 'images/receipts', $receipt->code . '.jpg')) }}"
                      alt="{{ $receipt->name }}" class="recipe-image">
@@ -335,7 +342,7 @@
                                      alt="Шаг {{ $index + 1 }}">
                             @endif
                             <div class="step-text">
-                                <span class="step-number">Шаг {{ $index + 1 }}.</span> {{ $stepText }}
+                                <span class="step-number">Шаг {{ $index + 1 }}.</span> {!! $stepText !!}
                             </div>
                         </div>
                         @if (!$loop->last)

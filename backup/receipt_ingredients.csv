@@ -1,5 +1,3 @@
-receipt_code;ingredient_code;amount;sort
-hot-egg-sandwich;bread;;2
 hot-egg-sandwich;cheese;;3
 hot-egg-sandwich;ham;;4
 hot-egg-sandwich;butter;;5
@@ -1225,3 +1223,17 @@ harcho;tomato;3-4 шт.;6
 harcho;or-tomato-paste;2 ч.л.;7
 harcho;water;2.5 л.;8
 harcho;salt;;9
+salmon-steak;salmon-steak;2 шт.;1
+salmon-steak;sweet-chili-sauce;50 г.;2
+salmon-steak;soy-sauce;100 г.;3
+salmon-steak;garlic;;4
+salmon-steak;orange;половина;5
+salad-chicken-pineapple;chicken;120 г.;1
+salad-chicken-pineapple;canned-pineapple;70 г.;2
+salad-chicken-pineapple;corn;60 г.;3
+salad-chicken-pineapple;iceberg-salad;;4
+salad-chicken-pineapple;cheese;40 г.;5
+salad-chicken-pineapple;zapravka;50 г. греческого йогурта и чуть соли;6
+curd-lavash-with-smth;curd-lavash-with-smth-title;;1
+curd-lavash-with-smth;cottage;1 пачка (150-180 г.);3
+curd-lavash-with-smth;egg;1 шт.;2

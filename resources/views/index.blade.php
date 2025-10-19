@@ -35,10 +35,21 @@
 
         .category-title {
             margin-top: 15px;
-            font-size: 2rem;
+            font-size: 1.5rem;
             text-align: center;
             color: #331800;
             font-weight: bold;
+        }
+
+        @media (min-width: 700px) and (max-width: 1200px) {
+            .category-title {
+                font-size: 2.3rem;
+            }
+
+            .note-item {
+                padding: 1rem 1rem;
+                margin-bottom: 1rem;
+            }
         }
     </style>
 @endpush
