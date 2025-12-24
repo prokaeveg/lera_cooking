@@ -3,11 +3,9 @@ id;name;code;image;sort
 2;Пицца;pizza;пицца.png;120
 3;Блюда из мяса;meat;мясо.png;40
 4;Фритюр;fryer;фритюр.png;130
-5;Выпечка;bakery;пирожки.png;30
 6;В духовке;oven;духовка.png;110
 7;Котлеты;cutlets;котлеты.png;90
 8;Блюда из гречки;buckwheat;гречка.png;50
-9;Супы;soup;суп.png;20
 10;Завтраки;breakfast;завтраки.png;10
 11;Блюда из риса;rice;рис.png;60
 12;Блюда из картошки;potato;картошка.png;70
@@ -18,4 +16,5 @@ id;name;code;image;sort
 17;Лимонады;lemonade;лимонад.png;149
 18;Лайфхаки;lifehack;лайфхаки.png;150
 19;Гарниры;garnirs;гарниры.png;75
-20;Закуски;snacks;закуски.png;15
+5;Выпечка;bakery;пирожки.png;20
+9;Супы;soup;суп.png;30

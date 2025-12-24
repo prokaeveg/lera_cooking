@@ -1,3 +1,4 @@
+receipt_code;ingredient_code;amount;sort
 hot-egg-sandwich;cheese;;3
 hot-egg-sandwich;ham;;4
 hot-egg-sandwich;butter;;5
@@ -226,7 +227,6 @@ potato-meat-roll;forcemeat;400 г.;2
 potato-meat-roll;tomato;;3
 potato-meat-roll;cheese;;4
 potato-meat-roll;onion;;5
-potato-meat-roll;cream-cheese;100 г.;6
 potato-meat-roll;salt;;8
 rice-porridge;rice-circle;200 г.;1
 pie-with-rice;flour;100 г.;1
@@ -260,6 +260,7 @@ pie-ham-cheese;sesame;;7
 pie-ham-cheese;pumpkin-seed;;8
 chebureks;flour;400 г.;1
 chebureks;oil;40 г.;2
+potato-meat-roll;cottage-cheese;100 г.;6
 chebureks;hot-water;200 мл.;3
 chebureks;vodka;20 г.;4
 chebureks;forcemeat;300 г.;5
@@ -385,12 +386,6 @@ rice-with-sausages;onion;;4
 rice-with-sausages;garlic;;5
 rice-with-sausages;oil;;6
 rice-with-sausages;salt;;7
-beef-stroganoff-with-mushrooms;beef;400 г.;1
-beef-stroganoff-with-mushrooms;mushroom;400 г.;2
-beef-stroganoff-with-mushrooms;smetana;150 г.;3
-beef-stroganoff-with-mushrooms;butter;40 г.;4
-beef-stroganoff-with-mushrooms;flour;20 г.;5
-beef-stroganoff-with-mushrooms;salt;;6
 rice-with-chicken-mushrooms;rice-circle;200 г.;1
 rice-with-chicken-mushrooms;mushroom;250 г.;3
 rice-with-chicken-mushrooms;onion;;4
@@ -659,8 +654,6 @@ puff-with-kinder;dough-yeasts;;1
 puff-with-kinder;kinder;;2
 puff-with-kinder;yolk;;3
 browne;butter;150 г.;1
-browne;sugar;150 г.;2
-browne;egg;2 шт.;3
 browne;flour;100 г.;4
 browne;kakao;30 г.;5
 browne;salt;0.5 ч.л.;6
@@ -1062,13 +1055,6 @@ super-poleznaya-lasagna;lasagna;;4
 super-poleznaya-lasagna;greek-yogurt;;5
 super-poleznaya-lasagna;cheese;;6
 super-poleznaya-lasagna;onion;;7
-chicken-teriyaki;chicken;500 г.;1
-chicken-teriyaki;flour;20 г.;2
-chicken-teriyaki;soy-sauce;50 мл.;3
-chicken-teriyaki;tomato-paste;50 г.;4
-chicken-teriyaki;honey;15 г.;5
-chicken-teriyaki;sesame;;6
-chicken-teriyaki;salt;;7
 pasta-with-tuna;pasta;350 г.;1
 pasta-with-tuna;tuna;2 банки (300 г., в собственном соку);2
 pasta-with-tuna;cheese;150 г.;3
@@ -1175,11 +1161,6 @@ chicken-under-cheese;starch;1 ст.л.;6
 chicken-under-cheese;garlic;1 зубчик;7
 chicken-under-cheese;salt;;8
 chicken-under-cheese;water;1/3 стакана;9
-hot-sandwiches-with-caviar;crab-sticks;150 г.;1
-hot-sandwiches-with-caviar;salmon-caviar-smoked;1/2 банки;2
-hot-sandwiches-with-caviar;mayonnaise;2 ч.л.;3
-hot-sandwiches-with-caviar;cheese;60 г.;4
-hot-sandwiches-with-caviar;bread;;5
 salad-carpacho-corn;carpacho;200 г.;1
 salad-carpacho-corn;korea-carrot;150 г.;2
 salad-carpacho-corn;corn;150 г.;3
@@ -1234,6 +1215,81 @@ salad-chicken-pineapple;corn;60 г.;3
 salad-chicken-pineapple;iceberg-salad;;4
 salad-chicken-pineapple;cheese;40 г.;5
 salad-chicken-pineapple;zapravka;50 г. греческого йогурта и чуть соли;6
-curd-lavash-with-smth;curd-lavash-with-smth-title;;1
-curd-lavash-with-smth;cottage;1 пачка (150-180 г.);3
-curd-lavash-with-smth;egg;1 шт.;2
+caesar-with-shrimps;shrimp;10-12 шт.;1
+caesar-with-shrimps;salad;;2
+baked-salmon-with-potatoes;boiled-potato;3-4 шт.;1
+baked-salmon-with-potatoes;semga;600 г.;2
+baked-salmon-with-potatoes;smetana;150-200 г.;3
+baked-salmon-with-potatoes;cheese;100 г.;4
+puff-with-boiled-condensed-milk;dough-yeasts;1 пласт;1
+puff-with-boiled-condensed-milk;boiled-condensed-milk;половина банки;2
+puff-with-boiled-condensed-milk;nuts;;3
+minced-chicken-in-sheets;sheets;4 шт.;1
+minced-chicken-in-sheets;chicken-forcemeat;800 г.;2
+minced-chicken-in-sheets;cheese;200 г.;3
+minced-chicken-in-sheets;tomato;2 шт.;4
+chicken-salad-with-gherkins;chicken-boiled;150 г.;1
+chicken-salad-with-gherkins;pickle;150 г.;2
+chicken-salad-with-gherkins;boiled-egg;2 шт.;3
+chicken-salad-with-gherkins;greek-yogurt;135 г.;4
+chicken-salad-with-gherkins;salt;;5
+chicken-tom-yam;coconut-milk;400 мл.;2
+chicken-tom-yam;water;180 мл.;3
+chicken-tom-yam;peanut;1 горсть;4
+chicken-tom-yam;tomato-cherry;200 г.;5
+chicken-tom-yam;tom-yam-paste;по вкусу;6
+chicken-tom-yam;mushroom;150 г.;7
+pasta-with-shrimps-2;pasta;200 г.;1
+pasta-with-shrimps-2;shrimp;250 г.;2
+pasta-with-shrimps-2;cream-30;150 мл.;3
+pasta-with-shrimps-2;tomato-cherry;5-6 шт.;4
+pasta-with-shrimps-2;cheese;30-50 г.;5
+pasta-with-shrimps-2;garlic;2 зубчика;6
+pasta-with-shrimps-2;butter;20 г.;7
+minced-chicken-in-sheets-mushrooms;sheets;;1
+minced-chicken-in-sheets-mushrooms;chicken-forcemeat;;2
+minced-chicken-in-sheets-mushrooms;fried-mushrooms;;3
+minced-chicken-in-sheets-mushrooms;cheese;;4
+red-velvet-cookies;flour;150 г.;1
+red-velvet-cookies;kakao;10 г.;2
+red-velvet-cookies;baking-powder;1 ч.л.;3
+red-velvet-cookies;egg;1 шт.;4
+red-velvet-cookies;butter;70 г.;5
+red-velvet-cookies;sugar;70 г.;6
+red-velvet-cookies;red-dye;;7
+red-velvet-cookies;white-chocolate;80 г.;8
+red-velvet-cookies;cottage-cheese;120 г.;9
+red-velvet-cookies;sugar-powder;2 ст.л.;10
+red-velvet-cookies;corn-starch;1 ч.л.;11
+potato-pancakes;potato;4 шт.;1
+potato-pancakes;flour;160-200 г. (может понадобится как больше, так и меньше муки);2
+potato-pancakes;cheese;150-200 г. (ещё вкуснее будет, если вы в сыр что-нибудь добавите. Грибы, ветчину, курицу и т.д.);3
+mango-lemonade;mineral-water-gaze;250 мл.;4
+mango-lemonade;mango-syrup;20 мл.;1
+mango-lemonade;orange-juice;100 мл.;3
+mango-lemonade;lemon;Половина дольки;5
+mango-lemonade;passion-fruit-syrup;20 мл.;2
+shrimp-with-cream-lime-sauce;shrimp;1 кг. (варено-мороженные);1
+shrimp-with-cream-lime-sauce;butter;10 г.;2
+shrimp-with-cream-lime-sauce;garlic;6 зубчиков;3
+shrimp-with-cream-lime-sauce;cream-20;100 мл.;4
+shrimp-with-cream-lime-sauce;cottage-cheese;1 ст.л.;5
+shrimp-with-cream-lime-sauce;melt-cheese;1 ст.л.;6
+shrimp-with-cream-lime-sauce;soy-sauce;2 ст.л.;7
+shrimp-with-cream-lime-sauce;lime-juice;;8
+caesar-with-shrimps;tomato-cherry;8 шт.;3
+caesar-with-shrimps;cheese;;4
+caesar-with-shrimps;crouton;;5
+caesar-with-shrimps;caesar-sauce;;6
+caesar-with-shrimps;soy-sauce;1-2 ч.л.;7
+browne;egg;2 шт. (+ 1 шт. для слоя чизкейк);3
+browne;sugar;150 г. (+ 60 г. для стоя чизкейк);2
+browne;cottage-cheese;300 г.;8
+chicken-tom-yam;chicken;1.1 кг.;1
+browne;vanillin;0.5 ч.л. (карамельный);9
+cornmeal-porridge;salt;щепотка;6
+cornmeal-porridge;water;1 стакан;2
+cornmeal-porridge;milk;1 стакан;3
+cornmeal-porridge;corn-groats;0.5 стакана;1
+cornmeal-porridge;sugar;1-3 ст.л.;5
+cornmeal-porridge;butter;50 г.;4

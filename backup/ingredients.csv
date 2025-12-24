@@ -1,3 +1,4 @@
+id;name;code
 1;Яйца;egg
 2;Хлеб;bread
 3;Сыр;cheese
@@ -170,3 +171,13 @@
 200;или томатная паста;or-tomato-paste
 201;Стейк из лосося;salmon-steak
 202;Соус сладкий чили;sweet-chili-sauce
+205;Отварной картофель;boiled-potato
+206;Семга;semga
+207;Листы для жарки;sheets
+208;Куриное филе отварное;chicken-boiled
+209;Жаренные грибы;fried-mushrooms
+210;Красный краситель;red-dye
+211;Сироп манго;mango-syrup
+212;Сироп маракуйя;passion-fruit-syrup
+213;Сок лайма;lime-juice
+214;Кукурузная крупа;corn-groats
